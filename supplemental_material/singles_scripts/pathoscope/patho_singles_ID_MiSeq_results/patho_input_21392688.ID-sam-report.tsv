@@ -1,0 +1,4 @@
+Total Number of Aligned Reads:	1000	Total Number of Mapped Genomes:	33
+Genome	Final Guess	Final Best Hit	Final Best Hit Read Numbers	Final High Confidence Hits	Final Low Confidence Hits	Initial Guess	Initial Best Hit	Initial Best Hit Read Numbers	Initial High Confidence Hits	Initial Low Confidence Hits
+ti|261594	0.995703841326607	0.996	996.0	0.996	0.0	0.17342634564494952	0.18277619047618862	182.77619047618862	0.004	0.992
+ti|191218	0.004296158673391794	0.004	4.0	0.004	0.0	0.1709920300291255	0.17877619047618884	178.77619047618884	0.0	0.994

@@ -1,0 +1,592 @@
+############################################################################################################
+All run on thor (high-memory) node. (option threads=64 for kraken and blastn, not specified for pathoscope)
+##########output from: cat /proc/cpuinfo
+Node may utilize up to 64 processors (32 physical processors, hyperthreaded), with identical specifications as follows:
+processor	: 0-63
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 45
+model name	: Intel(R) Xeon(R) CPU E5-4640 0 @ 2.40GHz
+stepping	: 7
+microcode	: 0x710
+cpu MHz		: 1200.000
+cache size	: 20480 KB
+physical id	: 3
+siblings	: 16
+core id		: 7
+cpu cores	: 8
+apicid		: 111
+initial apicid	: 111
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx lahf_lm ida arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriority ept vpid
+bogomips	: 4798.63
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+########output from: lshw -C memory
+ *-firmware              
+       description: BIOS
+       vendor: Intel Corp.
+       physical id: 0
+       version: SE5C600.86B.02.02.0003.011720141725
+       date: 01/17/2014
+       size: 64KiB
+       capacity: 8128KiB
+       capabilities: pci upgrade shadowing cdboot bootselect edd int13floppy1200 int13floppy720 int13floppy2880 int5printscreen int9keyboard int14serial int17printer acpi usb biosbootspecification
+  *-cache:0
+       description: L1 cache
+       physical id: 5
+       slot: L1-Cache
+       size: 512KiB
+       capacity: 512KiB
+       capabilities: internal write-back unified
+  *-cache:1
+       description: L2 cache
+       physical id: 6
+       slot: L2-Cache
+       size: 2MiB
+       capacity: 2MiB
+       capabilities: internal varies unified
+  *-cache:2
+       description: L3 cache
+       physical id: 7
+       slot: L3-Cache
+       size: 20MiB
+       capacity: 20MiB
+       capabilities: internal varies unified
+  *-cache:0
+       description: L1 cache
+       physical id: 9
+       slot: L1-Cache
+       size: 512KiB
+       capacity: 512KiB
+       capabilities: internal write-back unified
+  *-cache:1
+       description: L2 cache
+       physical id: a
+       slot: L2-Cache
+       size: 2MiB
+       capacity: 2MiB
+       capabilities: internal varies unified
+  *-cache:2
+       description: L3 cache
+       physical id: b
+       slot: L3-Cache
+       size: 20MiB
+       capacity: 20MiB
+       capabilities: internal varies unified
+  *-cache:0
+       description: L1 cache
+       physical id: d
+       slot: L1-Cache
+       size: 512KiB
+       capacity: 512KiB
+       capabilities: internal write-back unified
+  *-cache:1
+       description: L2 cache
+       physical id: e
+       slot: L2-Cache
+       size: 2MiB
+       capacity: 2MiB
+       capabilities: internal varies unified
+  *-cache:2
+       description: L3 cache
+       physical id: f
+       slot: L3-Cache
+       size: 20MiB
+       capacity: 20MiB
+       capabilities: internal varies unified
+  *-cache:0
+       description: L1 cache
+       physical id: 11
+       slot: L1-Cache
+       size: 512KiB
+       capacity: 512KiB
+       capabilities: internal write-back unified
+  *-cache:1
+       description: L2 cache
+       physical id: 12
+       slot: L2-Cache
+       size: 2MiB
+       capacity: 2MiB
+       capabilities: internal varies unified
+  *-cache:2
+       description: L3 cache
+       physical id: 13
+       slot: L3-Cache
+       size: 20MiB
+       capacity: 20MiB
+       capabilities: internal varies unified
+  *-memory:0
+       description: System Memory
+       physical id: 3e
+       slot: System board or motherboard
+     *-bank:0
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 0
+          serial: 35CBB0B7
+          slot: DIMM_A1
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:1
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 1
+          serial: 13A38C28
+          slot: DIMM_A2
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:2
+          description: DIMM Synchronous [empty]
+          product: NO DIMM
+          vendor: NO DIMM
+          physical id: 2
+          serial: NO DIMM
+          slot: DIMM_A3
+          width: 64 bits
+     *-bank:3
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 3
+          serial: 13A38C0A
+          slot: DIMM_B1
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:4
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 4
+          serial: 13A38C31
+          slot: DIMM_B2
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:5
+          description: DIMM Synchronous [empty]
+          product: NO DIMM
+          vendor: NO DIMM
+          physical id: 5
+          serial: NO DIMM
+          slot: DIMM_B3
+          width: 64 bits
+     *-bank:6
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 6
+          serial: 13A38C2C
+          slot: DIMM_C1
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:7
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 7
+          serial: 13A38C3F
+          slot: DIMM_C2
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:8
+          description: DIMM Synchronous [empty]
+          product: NO DIMM
+          vendor: NO DIMM
+          physical id: 8
+          serial: NO DIMM
+          slot: DIMM_C3
+          width: 64 bits
+     *-bank:9
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 9
+          serial: 13A38C32
+          slot: DIMM_D1
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:10
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: a
+          serial: 13A38C20
+          slot: DIMM_D2
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:11
+          description: DIMM Synchronous [empty]
+          product: NO DIMM
+          vendor: NO DIMM
+          physical id: b
+          serial: NO DIMM
+          slot: DIMM_D3
+          width: 64 bits
+  *-memory:1
+       description: System Memory
+       physical id: 58
+       slot: System board or motherboard
+     *-bank:0
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 0
+          serial: 35CA010B
+          slot: DIMM_E1
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:1
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 1
+          serial: 35CA019D
+          slot: DIMM_E2
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:2
+          description: DIMM Synchronous [empty]
+          product: NO DIMM
+          vendor: NO DIMM
+          physical id: 2
+          serial: NO DIMM
+          slot: DIMM_E3
+          width: 64 bits
+     *-bank:3
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 3
+          serial: 35CA0113
+          slot: DIMM_F1
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:4
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 4
+          serial: 35CBAC55
+          slot: DIMM_F2
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:5
+          description: DIMM Synchronous [empty]
+          product: NO DIMM
+          vendor: NO DIMM
+          physical id: 5
+          serial: NO DIMM
+          slot: DIMM_F3
+          width: 64 bits
+     *-bank:6
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 6
+          serial: 35CBADDE
+          slot: DIMM_G1
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:7
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 7
+          serial: 35CBB0E5
+          slot: DIMM_G2
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:8
+          description: DIMM Synchronous [empty]
+          product: NO DIMM
+          vendor: NO DIMM
+          physical id: 8
+          serial: NO DIMM
+          slot: DIMM_G3
+          width: 64 bits
+     *-bank:9
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 9
+          serial: 35CBAC54
+          slot: DIMM_H1
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:10
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: a
+          serial: 35CBAC4C
+          slot: DIMM_H2
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:11
+          description: DIMM Synchronous [empty]
+          product: NO DIMM
+          vendor: NO DIMM
+          physical id: b
+          serial: NO DIMM
+          slot: DIMM_H3
+          width: 64 bits
+  *-memory:2
+       description: System Memory
+       physical id: 72
+       slot: System board or motherboard
+     *-bank:0
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 0
+          serial: 35CA005E
+          slot: DIMM_J1
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:1
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 1
+          serial: 35CA0153
+          slot: DIMM_J2
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:2
+          description: DIMM Synchronous [empty]
+          product: NO DIMM
+          vendor: NO DIMM
+          physical id: 2
+          serial: NO DIMM
+          slot: DIMM_J3
+          width: 64 bits
+     *-bank:3
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 3
+          serial: 35CA0031
+          slot: DIMM_K1
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:4
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 4
+          serial: 35CBB0B6
+          slot: DIMM_K2
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:5
+          description: DIMM Synchronous [empty]
+          product: NO DIMM
+          vendor: NO DIMM
+          physical id: 5
+          serial: NO DIMM
+          slot: DIMM_K3
+          width: 64 bits
+     *-bank:6
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 6
+          serial: 35CA0110
+          slot: DIMM_L1
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:7
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 7
+          serial: 35CBADDF
+          slot: DIMM_L2
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:8
+          description: DIMM Synchronous [empty]
+          product: NO DIMM
+          vendor: NO DIMM
+          physical id: 8
+          serial: NO DIMM
+          slot: DIMM_L3
+          width: 64 bits
+     *-bank:9
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 9
+          serial: 35CBAC4F
+          slot: DIMM_M1
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:10
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: a
+          serial: 35CBB0E8
+          slot: DIMM_M2
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:11
+          description: DIMM Synchronous [empty]
+          product: NO DIMM
+          vendor: NO DIMM
+          physical id: b
+          serial: NO DIMM
+          slot: DIMM_M3
+          width: 64 bits
+  *-memory:3
+       description: System Memory
+       physical id: 8c
+       slot: System board or motherboard
+     *-bank:0
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 0
+          serial: 35CA010E
+          slot: DIMM_N1
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:1
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 1
+          serial: 35C9F397
+          slot: DIMM_N2
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:2
+          description: DIMM Synchronous [empty]
+          product: NO DIMM
+          vendor: NO DIMM
+          physical id: 2
+          serial: NO DIMM
+          slot: DIMM_N3
+          width: 64 bits
+     *-bank:3
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 3
+          serial: 35CA0111
+          slot: DIMM_P1
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:4
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 4
+          serial: 35CA0152
+          slot: DIMM_P2
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:5
+          description: DIMM Synchronous [empty]
+          product: NO DIMM
+          vendor: NO DIMM
+          physical id: 5
+          serial: NO DIMM
+          slot: DIMM_P3
+          width: 64 bits
+     *-bank:6
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 6
+          serial: 35CA005D
+          slot: DIMM_R1
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:7
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 7
+          serial: 35CA0151
+          slot: DIMM_R2
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:8
+          description: DIMM Synchronous [empty]
+          product: NO DIMM
+          vendor: NO DIMM
+          physical id: 8
+          serial: NO DIMM
+          slot: DIMM_R3
+          width: 64 bits
+     *-bank:9
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: 9
+          serial: 35CA0114
+          slot: DIMM_T1
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:10
+          description: DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+          product: M393B2G70BH0-CK0
+          vendor: Samsung
+          physical id: a
+          serial: 35CA010D
+          slot: DIMM_T2
+          size: 16GiB
+          width: 64 bits
+          clock: 1600MHz (0.6ns)
+     *-bank:11
+          description: DIMM Synchronous [empty]
+          product: NO DIMM
+          vendor: NO DIMM
+          physical id: b
+          serial: NO DIMM
+          slot: DIMM_T3
+          width: 64 bits
+  *-memory:4 UNCLAIMED
+       physical id: 9
+  *-memory:5 UNCLAIMED
+       physical id: a

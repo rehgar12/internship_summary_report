@@ -1,0 +1,14 @@
+  0.00	0	0	U	0	unclassified
+100.00	1000	0	-	1	root
+100.00	1000	0	-	131567	  cellular organisms
+100.00	1000	0	D	2	    Bacteria
+100.00	1000	0	P	1239	      Firmicutes
+100.00	1000	0	C	91061	        Bacilli
+100.00	1000	0	O	1385	          Bacillales
+100.00	1000	0	F	186817	            Bacillaceae
+100.00	1000	0	G	1386	              Bacillus
+100.00	1000	736	-	86661	                Bacillus cereus group
+ 26.20	262	262	S	1392	                  Bacillus anthracis
+  0.20	2	1	S	1428	                  Bacillus thuringiensis
+  0.10	1	0	-	180856	                    Bacillus thuringiensis serovar konkukian
+  0.10	1	1	-	281309	                      Bacillus thuringiensis serovar konkukian str. 97-27

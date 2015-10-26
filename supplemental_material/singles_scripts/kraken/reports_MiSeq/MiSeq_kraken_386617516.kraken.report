@@ -1,0 +1,15 @@
+  0.00	0	0	U	0	unclassified
+100.00	1000	3	-	1	root
+ 99.70	997	0	-	131567	  cellular organisms
+ 99.70	997	0	D	2	    Bacteria
+ 99.70	997	0	P	1224	      Proteobacteria
+ 99.70	997	0	C	1236	        Gammaproteobacteria
+ 99.70	997	0	O	91347	          Enterobacteriales
+ 99.70	997	72	F	543	            Enterobacteriaceae
+ 92.40	924	0	G	561	              Escherichia
+ 92.40	924	883	S	562	                Escherichia coli
+  3.70	37	37	-	1033813	                  Escherichia coli NA114
+  0.20	2	2	-	439855	                  Escherichia coli SMS-3-5
+  0.20	2	0	-	685037	                  Escherichia coli O83:H1
+  0.20	2	2	-	685038	                    Escherichia coli O83:H1 str. NRG 857C
+  0.10	1	1	G	570	              Klebsiella

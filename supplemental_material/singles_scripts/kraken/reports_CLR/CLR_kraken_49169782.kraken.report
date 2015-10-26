@@ -1,0 +1,10 @@
+ 49.90	499	499	U	0	unclassified
+ 50.10	501	0	-	1	root
+ 50.10	501	0	D	10239	  Viruses
+ 50.10	501	0	-	439488	    ssRNA viruses
+ 50.10	501	0	-	35278	      ssRNA positive-strand viruses, no DNA stage
+ 50.10	501	0	O	76804	        Nidovirales
+ 50.10	501	0	F	11118	          Coronaviridae
+ 50.10	501	0	-	693995	            Coronavirinae
+ 50.10	501	0	G	693996	              Alphacoronavirus
+ 50.10	501	501	S	277944	                Human coronavirus NL63

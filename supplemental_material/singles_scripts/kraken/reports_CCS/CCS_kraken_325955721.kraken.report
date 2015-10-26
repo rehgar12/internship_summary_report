@@ -1,0 +1,23 @@
+  0.00	0	0	U	0	unclassified
+100.00	1000	0	-	1	root
+100.00	1000	0	-	131567	  cellular organisms
+100.00	1000	4	D	2	    Bacteria
+ 99.60	996	0	P	1239	      Firmicutes
+ 99.60	996	0	C	91061	        Bacilli
+ 99.60	996	0	O	186826	          Lactobacillales
+ 99.60	996	0	F	33958	            Lactobacillaceae
+ 99.60	996	463	G	1578	              Lactobacillus
+ 50.90	509	3	S	1579	                Lactobacillus acidophilus
+ 50.60	506	506	-	891391	                  Lactobacillus acidophilus 30SC
+  0.90	9	4	S	1587	                Lactobacillus helveticus
+  0.20	2	2	-	405566	                  Lactobacillus helveticus DPC 4571
+  0.20	2	2	-	880633	                  Lactobacillus helveticus R0052
+  0.10	1	1	-	326425	                  Lactobacillus helveticus CNRZ32
+  0.80	8	5	S	1604	                Lactobacillus amylovorus
+  0.30	3	3	-	695560	                  Lactobacillus amylovorus GRL 1112
+  0.40	4	0	S	47770	                Lactobacillus crispatus
+  0.40	4	4	-	748671	                  Lactobacillus crispatus ST1
+  0.20	2	0	S	267818	                Lactobacillus kefiranofaciens
+  0.20	2	2	-	1033837	                  Lactobacillus kefiranofaciens ZW3
+  0.10	1	0	S	1596	                Lactobacillus gasseri
+  0.10	1	1	-	324831	                  Lactobacillus gasseri ATCC 33323 = JCM 1131

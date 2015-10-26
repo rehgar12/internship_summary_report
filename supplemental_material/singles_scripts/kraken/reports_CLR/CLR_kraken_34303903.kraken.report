@@ -1,0 +1,10 @@
+ 47.90	479	479	U	0	unclassified
+ 52.10	521	0	-	1	root
+ 52.10	521	0	D	10239	  Viruses
+ 52.10	521	0	-	35237	    dsDNA viruses, no RNA stage
+ 52.10	521	0	F	10508	      Adenoviridae
+ 52.10	521	8	G	100953	        Atadenovirus
+ 51.20	512	512	S	130499	          Bovine adenovirus D
+  0.10	1	0	-	327833	          unclassified Atadenovirus
+  0.10	1	0	S	130500	            Bovine adenovirus E
+  0.10	1	1	-	111167	              Bovine adenovirus 6

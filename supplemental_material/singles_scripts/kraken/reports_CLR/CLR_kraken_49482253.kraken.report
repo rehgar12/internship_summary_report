@@ -1,0 +1,30 @@
+ 47.60	476	476	U	0	unclassified
+ 52.40	524	16	-	1	root
+ 50.80	508	0	-	131567	  cellular organisms
+ 50.80	508	0	D	2	    Bacteria
+ 50.80	508	0	P	1239	      Firmicutes
+ 50.80	508	1	C	91061	        Bacilli
+ 50.70	507	2	O	1385	          Bacillales
+ 50.50	505	0	F	90964	            Staphylococcaceae
+ 50.50	505	41	G	1279	              Staphylococcus
+ 46.10	461	350	S	1280	                Staphylococcus aureus
+ 10.40	104	85	-	46170	                  Staphylococcus aureus subsp. aureus
+  0.60	6	6	-	282458	                    Staphylococcus aureus subsp. aureus MRSA252
+  0.30	3	3	-	869816	                    Staphylococcus aureus subsp. aureus JKD6159
+  0.20	2	2	-	196620	                    Staphylococcus aureus subsp. aureus MW2
+  0.20	2	2	-	1074252	                    Staphylococcus aureus subsp. aureus HO 5096 0412
+  0.20	2	2	-	1392476	                    Staphylococcus aureus subsp. aureus 6850
+  0.10	1	1	-	548473	                    Staphylococcus aureus subsp. aureus TCH60
+  0.10	1	1	-	681288	                    Staphylococcus aureus subsp. aureus ED98
+  0.10	1	1	-	685039	                    Staphylococcus aureus subsp. aureus ED133
+  0.10	1	1	-	1074919	                    Staphylococcus aureus subsp. aureus ST228
+  0.40	4	4	-	1323661	                  Staphylococcus aureus CA-347
+  0.10	1	1	-	273036	                  Staphylococcus aureus RF122
+  0.10	1	1	-	1229492	                  Staphylococcus aureus 08BA02176
+  0.10	1	1	-	1321369	                  Staphylococcus aureus Bmb9393
+  0.10	1	0	S	29385	                Staphylococcus saprophyticus
+  0.10	1	0	-	147452	                  Staphylococcus saprophyticus subsp. saprophyticus
+  0.10	1	1	-	342451	                    Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305
+  0.10	1	0	S	45972	                Staphylococcus pasteuri
+  0.10	1	1	-	1276282	                  Staphylococcus pasteuri SP1
+  0.10	1	1	S	985002	                Staphylococcus argenteus

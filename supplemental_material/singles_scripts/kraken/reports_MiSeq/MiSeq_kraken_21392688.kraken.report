@@ -1,0 +1,21 @@
+  0.00	0	0	U	0	unclassified
+100.00	1000	0	-	1	root
+100.00	1000	0	-	131567	  cellular organisms
+100.00	1000	0	D	2	    Bacteria
+100.00	1000	0	P	1239	      Firmicutes
+100.00	1000	0	C	91061	        Bacilli
+100.00	1000	0	O	1385	          Bacillales
+100.00	1000	0	F	186817	            Bacillaceae
+100.00	1000	0	G	1386	              Bacillus
+100.00	1000	739	-	86661	                Bacillus cereus group
+ 25.40	254	254	S	1392	                  Bacillus anthracis
+  0.40	4	0	S	1396	                  Bacillus cereus
+  0.10	1	1	-	288681	                    Bacillus cereus E33L
+  0.10	1	1	-	361100	                    Bacillus cereus Q1
+  0.10	1	1	-	405531	                    Bacillus cereus G9842
+  0.10	1	1	-	1217984	                    Bacillus cereus FRI-35
+  0.20	2	1	S	1428	                  Bacillus thuringiensis
+  0.10	1	0	-	29337	                    Bacillus thuringiensis serovar finitimus
+  0.10	1	1	-	930170	                      Bacillus thuringiensis serovar finitimus YBT-020
+  0.10	1	0	S	86662	                  Bacillus weihenstephanensis
+  0.10	1	1	-	315730	                    Bacillus weihenstephanensis KBAB4

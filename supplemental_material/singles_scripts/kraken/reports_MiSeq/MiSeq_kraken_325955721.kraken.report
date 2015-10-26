@@ -1,0 +1,12 @@
+  0.00	0	0	U	0	unclassified
+100.00	1000	0	-	1	root
+100.00	1000	0	-	131567	  cellular organisms
+100.00	1000	0	D	2	    Bacteria
+100.00	1000	0	P	1239	      Firmicutes
+100.00	1000	0	C	91061	        Bacilli
+100.00	1000	0	O	186826	          Lactobacillales
+100.00	1000	0	F	33958	            Lactobacillaceae
+100.00	1000	586	G	1578	              Lactobacillus
+ 41.20	412	1	S	1579	                Lactobacillus acidophilus
+ 41.10	411	411	-	891391	                  Lactobacillus acidophilus 30SC
+  0.20	2	2	S	1587	                Lactobacillus helveticus

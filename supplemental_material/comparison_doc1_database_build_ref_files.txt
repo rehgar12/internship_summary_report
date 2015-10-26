@@ -1,0 +1,27 @@
+reference sequences used to build custom database for each classifier tool for comparison:
+__________________________________________________________________________________________
+
+downloaded from ftp://ftp.ncbi.nih.gov/genomes/
+June 2015
+
+1.	Used for Kraken, Pathoscope, and blastn custom built databases (see doc2 for build 
+	details).
+	download all Bacteria and Viruses, then decompress in their respective directories:
+mkdir Bacteria_comp
+mkdir Viruses_comp
+
+cd Bacteria_comp
+wget ftp://ftp.ncbi.nlm.nih.gov/genomes/Bacteria/all.fna.tar.gz
+mv all.fna.tar.gz bacteria.fna.tar.gz
+tar -zxvf bacteria.fna.tar.gz
+ll database_build_ref_files/comp_Bacteria/ | wc -l
+2789
+	2786 total Bacteria
+
+cd ../Viruses_comp
+wget ftp://ftp.ncbi.nlm.nih.gov/genomes/Viruses/all.fna.tar.gz
+mv all.fna.tar.gz viruses.fna.tar.gz
+tar -zxvf viruses.fna.tar.gz
+ll database_build_ref_files/comp_Viruses/ | wc -l
+4404
+	4401 total Viruses

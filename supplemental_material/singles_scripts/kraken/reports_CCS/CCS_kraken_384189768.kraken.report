@@ -1,0 +1,14 @@
+  0.00	0	0	U	0	unclassified
+100.00	1000	0	-	1	root
+100.00	1000	0	-	131567	  cellular organisms
+100.00	1000	0	D	2	    Bacteria
+100.00	1000	0	P	201174	      Actinobacteria
+100.00	1000	0	C	1760	        Actinobacteria
+100.00	1000	0	O	85004	          Bifidobacteriales
+100.00	1000	0	F	31953	            Bifidobacteriaceae
+100.00	1000	1	G	1678	              Bifidobacterium
+ 99.90	999	8	S	28025	                Bifidobacterium animalis
+ 99.10	991	951	-	302911	                  Bifidobacterium animalis subsp. lactis
+  3.60	36	36	-	552531	                    Bifidobacterium animalis subsp. lactis BB-12
+  0.30	3	3	-	1167629	                    Bifidobacterium animalis subsp. lactis ATCC 27673
+  0.10	1	1	-	573236	                    Bifidobacterium animalis subsp. lactis V9

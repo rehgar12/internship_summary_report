@@ -1,0 +1,32 @@
+ 47.30	473	473	U	0	unclassified
+ 52.70	527	0	-	1	root
+ 52.70	527	0	-	131567	  cellular organisms
+ 52.70	527	2	D	2	    Bacteria
+ 52.40	524	0	P	1239	      Firmicutes
+ 52.40	524	0	C	91061	        Bacilli
+ 52.40	524	1	O	186826	          Lactobacillales
+ 52.20	522	0	F	33958	            Lactobacillaceae
+ 52.20	522	365	G	1578	              Lactobacillus
+ 14.10	141	4	S	1579	                Lactobacillus acidophilus
+ 13.70	137	137	-	891391	                  Lactobacillus acidophilus 30SC
+  0.90	9	0	S	1604	                Lactobacillus amylovorus
+  0.80	8	8	-	695560	                  Lactobacillus amylovorus GRL 1112
+  0.10	1	1	-	695562	                  Lactobacillus amylovorus GRL1118
+  0.40	4	0	S	267818	                Lactobacillus kefiranofaciens
+  0.40	4	4	-	1033837	                  Lactobacillus kefiranofaciens ZW3
+  0.20	2	0	S	33959	                Lactobacillus johnsonii
+  0.10	1	1	-	909954	                  Lactobacillus johnsonii DPC 6026
+  0.10	1	1	-	1408186	                  Lactobacillus johnsonii N6.2
+  0.10	1	0	S	47770	                Lactobacillus crispatus
+  0.10	1	1	-	748671	                  Lactobacillus crispatus ST1
+  0.10	1	0	F	1300	            Streptococcaceae
+  0.10	1	0	G	1301	              Streptococcus
+  0.10	1	0	S	1314	                Streptococcus pyogenes
+  0.10	1	0	-	301452	                  Streptococcus pyogenes serotype M49
+  0.10	1	1	-	471876	                    Streptococcus pyogenes NZ131
+  0.10	1	0	P	1224	      Proteobacteria
+  0.10	1	0	C	1236	        Gammaproteobacteria
+  0.10	1	0	O	135622	          Alteromonadales
+  0.10	1	0	F	267890	            Shewanellaceae
+  0.10	1	0	G	22	              Shewanella
+  0.10	1	1	S	62322	                Shewanella baltica

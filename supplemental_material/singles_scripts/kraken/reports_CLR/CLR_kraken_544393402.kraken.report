@@ -1,0 +1,37 @@
+ 44.20	442	442	U	0	unclassified
+ 55.80	558	3	-	1	root
+ 55.50	555	0	-	131567	  cellular organisms
+ 55.50	555	0	D	2	    Bacteria
+ 55.30	553	1	P	1239	      Firmicutes
+ 55.10	551	1	C	91061	        Bacilli
+ 55.00	550	1	O	186826	          Lactobacillales
+ 54.90	549	1	F	1300	            Streptococcaceae
+ 54.60	546	0	G	1357	              Lactococcus
+ 54.60	546	26	S	1358	                Lactococcus lactis
+ 51.60	516	346	-	1359	                  Lactococcus lactis subsp. cremoris
+ 16.50	165	165	-	1295826	                    Lactococcus lactis subsp. cremoris KW2
+  0.30	3	3	-	272622	                    Lactococcus lactis subsp. cremoris SK11
+  0.20	2	2	-	1104322	                    Lactococcus lactis subsp. cremoris A76
+  0.40	4	1	-	1360	                  Lactococcus lactis subsp. lactis
+  0.30	3	3	-	1046624	                    Lactococcus lactis subsp. lactis IO-1
+  0.20	2	0	G	1301	              Streptococcus
+  0.10	1	0	S	1318	                Streptococcus parasanguinis
+  0.10	1	1	-	760570	                  Streptococcus parasanguinis ATCC 15912
+  0.10	1	0	S	1348	                Streptococcus parauberis
+  0.10	1	1	-	936154	                  Streptococcus parauberis KCTC 11537
+  0.10	1	0	C	186801	        Clostridia
+  0.10	1	0	O	186802	          Clostridiales
+  0.10	1	0	F	31979	            Clostridiaceae
+  0.10	1	1	G	1485	              Clostridium
+  0.10	1	0	P	1224	      Proteobacteria
+  0.10	1	0	C	1236	        Gammaproteobacteria
+  0.10	1	0	O	91347	          Enterobacteriales
+  0.10	1	0	F	543	            Enterobacteriaceae
+  0.10	1	0	G	590	              Salmonella
+  0.10	1	0	S	28901	                Salmonella enterica
+  0.10	1	0	-	59201	                  Salmonella enterica subsp. enterica
+  0.10	1	0	-	108619	                    Salmonella enterica subsp. enterica serovar Newport
+  0.10	1	1	-	877468	                      Salmonella enterica subsp. enterica serovar Newport str. USMARC-S3124.1
+  0.10	1	0	-	2323	      unclassified Bacteria
+  0.10	1	0	-	221235	        candidate division SR1
+  0.10	1	1	S	1394709	          candidate division SR1 bacterium RAAC1_SR1_1

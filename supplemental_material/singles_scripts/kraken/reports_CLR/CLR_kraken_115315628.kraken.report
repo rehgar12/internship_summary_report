@@ -1,0 +1,27 @@
+ 45.50	455	455	U	0	unclassified
+ 54.50	545	2	-	1	root
+ 54.20	542	0	D	10239	  Viruses
+ 54.20	542	0	-	35237	    dsDNA viruses, no RNA stage
+ 54.20	542	0	O	28883	      Caudovirales
+ 54.20	542	132	F	10699	        Siphoviridae
+ 40.00	400	211	G	1623305	          Skunalikevirus
+ 17.90	179	179	S	213775	            Lactococcus phage jj50
+  0.60	6	6	S	213769	            Lactococcus phage 712
+  0.20	2	2	S	63118	            Lactococcus phage bIL170
+  0.20	2	2	S	83129	            Lactococcus phage P008
+  1.00	10	1	-	196894	          unclassified Siphoviridae
+  0.30	3	3	S	1262537	            Lactococcus phage P680
+  0.20	2	2	S	1262533	            Lactococcus phage 340
+  0.20	2	2	S	1262536	            Lactococcus phage jm3
+  0.10	1	1	S	31754	            Lactococcus phage BK5-T
+  0.10	1	1	S	1262538	            Lactococcus phage phi7
+  0.10	1	0	-	131567	  cellular organisms
+  0.10	1	0	D	2	    Bacteria
+  0.10	1	0	P	1239	      Firmicutes
+  0.10	1	0	C	91061	        Bacilli
+  0.10	1	0	O	186826	          Lactobacillales
+  0.10	1	0	F	1300	            Streptococcaceae
+  0.10	1	0	G	1357	              Lactococcus
+  0.10	1	0	S	1358	                Lactococcus lactis
+  0.10	1	0	-	1359	                  Lactococcus lactis subsp. cremoris
+  0.10	1	1	-	1111678	                    Lactococcus lactis subsp. cremoris UC509.9

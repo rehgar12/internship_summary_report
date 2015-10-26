@@ -1,0 +1,617 @@
+Running without mySQLdb library
+bowtie2-align died with signal 9 (KILL) 
+Error: Ran out of memory allocating space for the bitpacked reference.  Please
+re-run on a computer with more memory.
+Error: Encountered internal Bowtie 2 exception (#1)
+Command: /usr/bin/bowtie2-align --wrapper basic-0 -x ./patho_comp_target-lib_ti_1 -p 8 --very-sensitive-local -k 100 --score-min L,20,1.0 -S /home/playera1/sandbox/classifier_comparison2/pathoscope_singles/results_patho_singles_MiSeq/patho_input_194172857-patho_comp_target-lib_ti_1.sam -U /home/playera1/sandbox/classifier_comparison2/metagenomic_input/PATHOSCOPE_input/MiSeq_meta_sim_1k/patho_input_194172857.fq 
+bowtie2-align exited with value 1
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    60 (6.00%) aligned 0 times
+    15 (1.50%) aligned exactly 1 time
+    925 (92.50%) aligned >1 times
+94.00% overall alignment rate
+940 reads; of these:
+  940 (100.00%) were unpaired; of these:
+    940 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    10 (1.00%) aligned 0 times
+    24 (2.40%) aligned exactly 1 time
+    966 (96.60%) aligned >1 times
+99.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    1000 (100.00%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    4 (0.40%) aligned 0 times
+    28 (2.80%) aligned exactly 1 time
+    968 (96.80%) aligned >1 times
+99.60% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+bowtie2-align died with signal 9 (KILL) 
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    1000 (100.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+bowtie2-align died with signal 9 (KILL) 
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    1000 (100.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+bowtie2-align died with signal 9 (KILL) 
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    1000 (100.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    741 (74.10%) aligned 0 times
+    47 (4.70%) aligned exactly 1 time
+    212 (21.20%) aligned >1 times
+25.90% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    890 (89.00%) aligned 0 times
+    105 (10.50%) aligned exactly 1 time
+    5 (0.50%) aligned >1 times
+11.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    1000 (100.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    192 (19.20%) aligned exactly 1 time
+    808 (80.80%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    303 (30.30%) aligned 0 times
+    162 (16.20%) aligned exactly 1 time
+    535 (53.50%) aligned >1 times
+69.70% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    11 (1.10%) aligned 0 times
+    177 (17.70%) aligned exactly 1 time
+    812 (81.20%) aligned >1 times
+98.90% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+Out of memory allocating the ebwt[] array for the Bowtie index.  Please try
+again on a computer with more memory.
+Error: Encountered internal Bowtie 2 exception (#1)
+Command: /usr/bin/bowtie2-align --wrapper basic-0 -x ./patho_comp_target-lib_ti_0 -p 8 --very-sensitive-local -k 100 --score-min L,20,1.0 -S /home/playera1/sandbox/classifier_comparison2/pathoscope_singles/results_patho_singles_MiSeq/patho_input_9629378-patho_comp_target-lib_ti_0.sam -U /home/playera1/sandbox/classifier_comparison2/metagenomic_input/PATHOSCOPE_input/MiSeq_meta_sim_1k/patho_input_9629378.fq 
+bowtie2-align exited with value 1
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    979 (97.90%) aligned 0 times
+    17 (1.70%) aligned exactly 1 time
+    4 (0.40%) aligned >1 times
+2.10% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    735 (73.50%) aligned 0 times
+    214 (21.40%) aligned exactly 1 time
+    51 (5.10%) aligned >1 times
+26.50% overall alignment rate
+268 reads; of these:
+  268 (100.00%) were unpaired; of these:
+    268 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    1000 (100.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+bowtie2-align died with signal 9 (KILL) 
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    905 (90.50%) aligned exactly 1 time
+    95 (9.50%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+Out of memory allocating the ebwt[] array for the Bowtie index.  Please try
+again on a computer with more memory.
+Error: Encountered internal Bowtie 2 exception (#1)
+Command: /usr/bin/bowtie2-align --wrapper basic-0 -x ./patho_comp_target-lib_ti_0 -p 8 --very-sensitive-local -k 100 --score-min L,20,1.0 -S /home/playera1/sandbox/classifier_comparison2/pathoscope_singles/results_patho_singles_MiSeq/patho_input_55770807-patho_comp_target-lib_ti_0.sam -U /home/playera1/sandbox/classifier_comparison2/metagenomic_input/PATHOSCOPE_input/MiSeq_meta_sim_1k/patho_input_55770807.fq 
+bowtie2-align exited with value 1
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    1000 (100.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    946 (94.60%) aligned exactly 1 time
+    54 (5.40%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    999 (99.90%) aligned 0 times
+    1 (0.10%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.10% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    331 (33.10%) aligned 0 times
+    299 (29.90%) aligned exactly 1 time
+    370 (37.00%) aligned >1 times
+66.90% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    1000 (100.00%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    479 (47.90%) aligned exactly 1 time
+    521 (52.10%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    1000 (100.00%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    629 (62.90%) aligned exactly 1 time
+    371 (37.10%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    13 (1.30%) aligned exactly 1 time
+    987 (98.70%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    1 (0.10%) aligned exactly 1 time
+    999 (99.90%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1 (0.10%) aligned 0 times
+    623 (62.30%) aligned exactly 1 time
+    376 (37.60%) aligned >1 times
+99.90% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1 (0.10%) aligned 0 times
+    9 (0.90%) aligned exactly 1 time
+    990 (99.00%) aligned >1 times
+99.90% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    708 (70.80%) aligned exactly 1 time
+    292 (29.20%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    184 (18.40%) aligned 0 times
+    761 (76.10%) aligned exactly 1 time
+    55 (5.50%) aligned >1 times
+81.60% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    155 (15.50%) aligned 0 times
+    592 (59.20%) aligned exactly 1 time
+    253 (25.30%) aligned >1 times
+84.50% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    318 (31.80%) aligned 0 times
+    306 (30.60%) aligned exactly 1 time
+    376 (37.60%) aligned >1 times
+68.20% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    1000 (100.00%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    489 (48.90%) aligned exactly 1 time
+    511 (51.10%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    985 (98.50%) aligned exactly 1 time
+    15 (1.50%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    284 (28.40%) aligned 0 times
+    699 (69.90%) aligned exactly 1 time
+    17 (1.70%) aligned >1 times
+71.60% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    950 (95.00%) aligned 0 times
+    26 (2.60%) aligned exactly 1 time
+    24 (2.40%) aligned >1 times
+5.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+bowtie2-align died with signal 9 (KILL) 
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    118 (11.80%) aligned exactly 1 time
+    882 (88.20%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    90 (9.00%) aligned 0 times
+    111 (11.10%) aligned exactly 1 time
+    799 (79.90%) aligned >1 times
+91.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    127 (12.70%) aligned exactly 1 time
+    873 (87.30%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    3 (0.30%) aligned 0 times
+    87 (8.70%) aligned exactly 1 time
+    910 (91.00%) aligned >1 times
+99.70% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    178 (17.80%) aligned 0 times
+    25 (2.50%) aligned exactly 1 time
+    797 (79.70%) aligned >1 times
+82.20% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    1000 (100.00%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    20 (2.00%) aligned exactly 1 time
+    980 (98.00%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    1000 (100.00%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    1000 (100.00%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    135 (13.50%) aligned exactly 1 time
+    865 (86.50%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    1000 (100.00%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    1000 (100.00%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    33 (3.30%) aligned exactly 1 time
+    967 (96.70%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    1 (0.10%) aligned exactly 1 time
+    999 (99.90%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    2 (0.20%) aligned 0 times
+    11 (1.10%) aligned exactly 1 time
+    987 (98.70%) aligned >1 times
+99.80% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    12 (1.20%) aligned 0 times
+    23 (2.30%) aligned exactly 1 time
+    965 (96.50%) aligned >1 times
+98.80% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    1000 (100.00%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    125 (12.50%) aligned exactly 1 time
+    875 (87.50%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    120 (12.00%) aligned 0 times
+    22 (2.20%) aligned exactly 1 time
+    858 (85.80%) aligned >1 times
+88.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    1000 (100.00%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Running without mySQLdb library
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    0 (0.00%) aligned 0 times
+    19 (1.90%) aligned exactly 1 time
+    981 (98.10%) aligned >1 times
+100.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    46 (4.60%) aligned 0 times
+    30 (3.00%) aligned exactly 1 time
+    924 (92.40%) aligned >1 times
+95.40% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    10 (1.00%) aligned 0 times
+    39 (3.90%) aligned exactly 1 time
+    951 (95.10%) aligned >1 times
+99.00% overall alignment rate
+1000 reads; of these:
+  1000 (100.00%) were unpaired; of these:
+    1000 (100.00%) aligned 0 times
+    0 (0.00%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.00% overall alignment rate

@@ -1,0 +1,32 @@
+Running each classification tool. 
+Each batch job was submitted 4 times, consecutively, then the last 3 times
+are averaged to get the processing times (%E) and max RSS (%M) for each tool.
+
+/usr/bin/time -f "%M max RSS, %E walltime, %S cpu sec (kernel mode), %U cpu sec (user mode), %P cpu (S+U)/E, %t RSS in Kb"
+
+All run on thor (high-memory) node. (option threads=64 for kraken and blastn, not specified for pathoscope)
+_____________________________________________
+KRAKEN:	input:	fasta
+http://ccb.jhu.edu/software/kraken/MANUAL.html
+1.	run simulated metagenomic data against kraken database with kraken
+	qsub run1_kraken_comp.sh
+___________________________________________________________________
+BLASTn	input:	fasta
+http://www.ncbi.nlm.nih.gov/books/NBK279680/
+1.	run simulated metagenomic data against blast database with blastn
+	qsub blastn_comp_run.sh
+___________________________________________________________________
+PATHOSCOPE	input:	fastq
+***SEE pathoscope section in singles_comparison_doc.txt for fix details
+	(redo of Map and ID)***
+
+paper	-	http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4164323/
+tutorial -	http://www.microbiomejournal.com/content/supplementary/2049-2618-2-33-s5.pdf
+TARGET + FILTER LIBRARY
+1.	map simulated metagenomic data against pathoscope target AND filter libraries.
+	qsub patho_comp_MAP.sh
+TARGET LIBRARY ONLY
+1.	run simulated metagenomic data against pathoscope target library ONLY.
+	qsub patho_comp_MAP_nofilter.sh
+
+

@@ -1,0 +1,754 @@
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 0.37
+
+The random seed for the run: 1435247066
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            10X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_017726.fna.ART_l250f10.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_017726.fna.ART_l250f10.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 1.79
+
+The random seed for the run: 1435247066
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            10X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_016945.fna.ART_l250f10.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_016945.fna.ART_l250f10.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 0.17
+
+The random seed for the run: 1435247068
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            10X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_012655.fna.ART_l250f10.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_012655.fna.ART_l250f10.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 3.23
+
+The random seed for the run: 1435247068
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            10X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_017214.fna.ART_l250f10.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_017214.fna.ART_l250f10.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 3.46
+
+The random seed for the run: 1435247072
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            10X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_015214.fna.ART_l250f10.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_015214.fna.ART_l250f10.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 6.21
+
+The random seed for the run: 1435247075
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            10X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_010723.fna.ART_l250f10.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_010723.fna.ART_l250f10.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 4.18
+
+The random seed for the run: 1435247082
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            10X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_022369.fna.ART_l250f10.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_022369.fna.ART_l250f10.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 8.53
+
+The random seed for the run: 1435247086
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            10X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_017644.fna.ART_l250f10.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_017644.fna.ART_l250f10.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 8.95
+
+The random seed for the run: 1435247095
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            10X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_005945.fna.ART_l250f10.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_005945.fna.ART_l250f10.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 3.63
+
+The random seed for the run: 1435247104
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            10X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_002946.fna.ART_l250f10.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_002946.fna.ART_l250f10.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 3.64
+
+The random seed for the run: 1435247108
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            10X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_003028.fna.ART_l250f10.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_003028.fna.ART_l250f10.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 8.82
+
+The random seed for the run: 1435247111
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            10X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_003997.fna.ART_l250f10.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_003997.fna.ART_l250f10.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 5
+
+The random seed for the run: 1435247121
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            10X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_017537.fna.ART_l250f10.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_017537.fna.ART_l250f10.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 4.92
+
+The random seed for the run: 1435247126
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            10X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_002952.fna.ART_l250f10.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_002952.fna.ART_l250f10.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 0.33
+
+The random seed for the run: 1435247131
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            10X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_003980.fna.ART_l250f10.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_003980.fna.ART_l250f10.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 0.18
+
+The random seed for the run: 1435247131
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            10X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_012577.fna.ART_l250f10.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_012577.fna.ART_l250f10.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 0.26
+
+The random seed for the run: 1435247131
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            100X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_006432.ffn.ART_l250f100.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_006432.ffn.ART_l250f100.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 0.17
+
+The random seed for the run: 1435247132
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            100X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_001517.ffn.ART_l250f100.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_001517.ffn.ART_l250f100.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 0.24
+
+The random seed for the run: 1435247132
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            100X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_003443.ffn.ART_l250f100.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_003443.ffn.ART_l250f100.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 0.24
+
+The random seed for the run: 1435247132
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            100X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_011523.fna.ART_l250f100.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_011523.fna.ART_l250f100.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 2.51
+
+The random seed for the run: 1435247132
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            100X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_001806.fna.ART_l250f100.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_001806.fna.ART_l250f100.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 0.46
+
+The random seed for the run: 1435247135
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            100X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_005831.ffn.ART_l250f100.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_005831.ffn.ART_l250f100.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 0.07
+
+The random seed for the run: 1435247136
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            100X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_001486.fna.ART_l250f100.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_001486.fna.ART_l250f100.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 0.46
+
+The random seed for the run: 1435247136
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            100X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_008371.fna.ART_l250f100.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_008371.fna.ART_l250f100.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 0.55
+
+The random seed for the run: 1435247136
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            100X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_002685.fna.ART_l250f100.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/NC_002685.fna.ART_l250f100.aln
+
+=======================================ART======================================
+                            ART_Illumina (2008-2015)                            
+                            Q Version 2.3.7 (Mar 19, 2015)                      
+                     Contact: Weichun Huang at whduke@gmail.com                 
+================================================================================
+
+                          Single-end Simulation
+
+Total CPU time used: 0.58
+
+The random seed for the run: 1435247137
+
+Parameters used during run
+	Read Length:	250
+	Genome masking 'N' cutoff frequency: 	1 in 250
+	Fold Coverage:            100X
+	Profile Type:             Combined
+	ID Tag:                   
+
+Quality Profile(s)
+	First Read:   MiSeq Length 250 R1 (built-in profile) 
+Output files
+
+  FASTQ Sequence File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/AC_000191.fna.ART_l250f100.fq
+
+  ALN Alignment File:
+	/home/playera1/sandbox/classifier_comparison/metagenomic_input/illumina_reads/sim_raw_reads/AC_000191.fna.ART_l250f100.aln
+

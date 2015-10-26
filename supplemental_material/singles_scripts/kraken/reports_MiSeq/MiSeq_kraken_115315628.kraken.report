@@ -1,0 +1,10 @@
+  0.00	0	0	U	0	unclassified
+100.00	1000	0	-	1	root
+100.00	1000	0	D	10239	  Viruses
+100.00	1000	0	-	35237	    dsDNA viruses, no RNA stage
+100.00	1000	0	O	28883	      Caudovirales
+100.00	1000	23	F	10699	        Siphoviridae
+ 97.70	977	313	G	1623305	          Skunalikevirus
+ 66.20	662	662	S	213775	            Lactococcus phage jj50
+  0.10	1	1	S	31532	            Lactococcus phage SK1
+  0.10	1	1	S	213769	            Lactococcus phage 712

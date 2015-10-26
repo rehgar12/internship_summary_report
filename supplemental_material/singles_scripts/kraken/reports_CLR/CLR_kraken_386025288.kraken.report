@@ -1,0 +1,22 @@
+ 47.20	472	472	U	0	unclassified
+ 52.80	528	4	-	1	root
+ 52.40	524	0	-	131567	  cellular organisms
+ 52.40	524	0	D	2	    Bacteria
+ 52.40	524	0	P	1239	      Firmicutes
+ 52.40	524	1	C	91061	        Bacilli
+ 52.30	523	1	O	1385	          Bacillales
+ 52.10	521	0	F	186820	            Listeriaceae
+ 52.10	521	43	G	1637	              Listeria
+ 47.40	474	472	S	1639	                Listeria monocytogenes
+  0.20	2	2	-	882097	                  Listeria monocytogenes SLCC2376
+  0.20	2	0	S	1643	                Listeria welshimeri
+  0.20	2	2	-	386043	                  Listeria welshimeri serovar 6b str. SLCC5334
+  0.10	1	0	S	1638	                Listeria ivanovii
+  0.10	1	0	-	202751	                  Listeria ivanovii subsp. ivanovii
+  0.10	1	1	-	881621	                    Listeria ivanovii subsp. ivanovii PAM 55
+  0.10	1	0	S	1642	                Listeria innocua
+  0.10	1	1	-	272626	                  Listeria innocua Clip11262
+  0.10	1	0	F	186817	            Bacillaceae
+  0.10	1	0	G	1386	              Bacillus
+  0.10	1	0	S	1404	                Bacillus megaterium
+  0.10	1	1	-	545693	                  Bacillus megaterium QM B1551

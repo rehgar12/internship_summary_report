@@ -1,0 +1,21 @@
+  0.00	0	0	U	0	unclassified
+100.00	1000	0	-	1	root
+100.00	1000	0	-	131567	  cellular organisms
+100.00	1000	0	D	2	    Bacteria
+100.00	1000	0	P	1239	      Firmicutes
+100.00	1000	0	C	91061	        Bacilli
+100.00	1000	0	O	186826	          Lactobacillales
+100.00	1000	0	F	1300	            Streptococcaceae
+100.00	1000	30	G	1301	              Streptococcus
+ 96.80	968	775	S	1313	                Streptococcus pneumoniae
+ 18.70	187	187	-	170187	                  Streptococcus pneumoniae TIGR4
+  0.10	1	1	-	189423	                  Streptococcus pneumoniae 670-6B
+  0.10	1	1	-	487213	                  Streptococcus pneumoniae Taiwan19F-14
+  0.10	1	1	-	487214	                  Streptococcus pneumoniae Hungary19A-6
+  0.10	1	1	-	574093	                  Streptococcus pneumoniae AP200
+  0.10	1	1	-	869303	                  Streptococcus pneumoniae SPN034156
+  0.10	1	1	-	869309	                  Streptococcus pneumoniae SPNA45
+  0.10	1	0	S	1303	                Streptococcus oralis
+  0.10	1	1	-	927666	                  Streptococcus oralis Uo5
+  0.10	1	0	S	28037	                Streptococcus mitis
+  0.10	1	1	-	365659	                  Streptococcus mitis B6

@@ -1,0 +1,12 @@
+  0.00	0	0	U	0	unclassified
+100.00	1000	0	-	1	root
+100.00	1000	0	-	131567	  cellular organisms
+100.00	1000	0	D	2	    Bacteria
+100.00	1000	0	P	1239	      Firmicutes
+100.00	1000	0	C	186801	        Clostridia
+100.00	1000	0	O	186802	          Clostridiales
+100.00	1000	0	F	31979	            Clostridiaceae
+100.00	1000	0	G	1485	              Clostridium
+100.00	1000	13	S	1491	                Clostridium botulinum
+ 98.70	987	0	-	36830	                  Clostridium botulinum E
+ 98.70	987	987	-	508767	                    Clostridium botulinum E3 str. Alaska E43

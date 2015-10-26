@@ -1,0 +1,106 @@
+from each gi returned for a read, get the taxid of it, and all nodes from
+leaf to the root of the taxonomic tree.
+
+All output is in CSV format with five fields:
+True_GI,True_TaxID,TP,FP,FN
+___________________________________________________________________________
+KRAKEN
+-already done (see 'singles_comparison_doc.txt') or "~/sandbox/week11/all_tax_stats.dox"
+
+___________________________________________________________________________
+BlastN
+from each gi returned for a read, get the taxid of it, and all nodes from
+leaf to the root of the taxonomic tree.
+
+	1.	using the files generated from cutting the format 6 output from
+		'singles_comparison_doc.txt' step 1 (gi_pair_count_MiSeq.tsv, 
+		gi_pair_count_CLR.tsv, gi_pair_count_CCS.tsv ), parse out all true
+		GI and predicted GI pairs, each with their corresponding taxid.
+qsub qsub_slow_gi2taxid_MiSeq.sh
+qsub qsub_slow_gi2taxid_CLR.sh
+qsub qsub_slow_gi2taxid_CCS.sh
+		OUTPUT:
+		Each read type has a directory, then each organism's GI is the
+		name of a file in that directory in a tsv format containing:
+		True_GI, Predicted_GI, Predicted_TaxID
+		on each line.
+	1.fix
+**some lines containing a true_gi dont have a corresponding pred_gi or ti
+**elimination of these 'empty' lines is necessary for merging with counts
+	in STEP4.
+	*(change read-type in the script each time you run it, for example:
+	MiSeq > CLR, etc.)
+bash fix_script.sh
+	2.	Parse out TaxIDs from each of the output files and put these new
+		files in a directory under their read-type parent directory.
+		*(change read-type in the script each time you run it, for example:
+			MiSeq > CLR, etc.)
+bash get_leaf-to-root_INPUT.sh
+	3.	Run each list for each read-type through taxid2taxstring.sh to get
+		the leaf-to-root information.
+qsub qsub_taxid2taxstring_MiSeq.sh
+qsub qsub_taxid2taxstring_CLR.sh
+qsub qsub_taxid2taxstring_CCS.sh
+**need to check these output for uniqueness, with uniq (-u?)
+find "leaftoRoot_MiSeq/" -name "*.pti-ltr" | while read x;do gi=$(basename $x | sed -e 's/.pti-ltr//'); cat $x | sort | uniq > uniq_leaftoRoot_MiSeq/"$gi.uniq.pti-ltr"; done
+find "leaftoRoot_CLR/" -name "*.pti-ltr" | while read x;do gi=$(basename $x | sed -e 's/.pti-ltr//'); cat $x | sort | uniq > uniq_leaftoRoot_CLR/"$gi.uniq.pti-ltr"; done
+find "leaftoRoot_CCS/" -name "*.pti-ltr" | while read x;do gi=$(basename $x | sed -e 's/.pti-ltr//'); cat $x | sort | uniq > uniq_leaftoRoot_CCS/"$gi.uniq.pti-ltr"; done
+
+	4.	Append the counts of each taxid from the BlastN output (from tsv 
+		files used in Step1) to new output of simialr format.
+		Format is: True_GI, Predicted_GI, Predicted_TaxID, read_COUNT
+qsub qsub_countstoTaxIDs_MiSeq.sh
+qsub qsub_countstoTaxIDs_CLR.sh
+qsub qsub_countstoTaxIDs_CCS.sh
+	5.	a.	Get taxid2taxstring.sh output for the 26 true taxids used
+taxid2taxstring.sh -i taxID_26.tsv -t /data/indices/ftp.ncbi.nih.gov/pub/taxonomy -o ./taxID_26.ltr
+		b.	Parse through leaf-to-root (pti-ltr) output and merge with counts
+bash tax_level_counter.sh family MiSeq
+bash tax_level_counter.sh genus MiSeq
+bash tax_level_counter.sh species MiSeq
+bash tax_level_counter.sh lowest MiSeq
+bash tax_level_counter.sh family CLR
+bash tax_level_counter.sh genus CLR
+bash tax_level_counter.sh species CLR
+bash tax_level_counter.sh lowest CLR
+bash tax_level_counter.sh family CCS
+bash tax_level_counter.sh genus CCS
+bash tax_level_counter.sh species CCS
+bash tax_level_counter.sh lowest CCS
+___________________________________________________________________________
+PATHOSCOPE
+	1.	Break out predicted taxid's with corresponding hit # from pathoscope out
+bash breakout_taxids_count.sh MiSeq
+bash breakout_taxids_count.sh CLR
+bash breakout_taxids_count.sh CCS
+		Then breakout only taxids for taxid2taxstring.sh input
+bash breakout_taxids_ONLY.sh MiSeq
+bash breakout_taxids_ONLY.sh CLR
+bash breakout_taxids_ONLY.sh CCS
+	2.	generate left-to-root files from taxid breakouts
+qsub qsub_taxid2taxstring_MiSeq.sh
+qsub qsub_taxid2taxstring_CLR.sh
+qsub qsub_taxid2taxstring_CCS.sh
+	3.	count up hit counts for each tax level (use '2> /dev/null' to suppress STDERR)
+bash tax_level_counter.sh family MiSeq
+bash tax_level_counter.sh genus MiSeq
+bash tax_level_counter.sh species MiSeq
+bash tax_level_counter.sh lowest MiSeq
+bash tax_level_counter.sh family CLR
+bash tax_level_counter.sh genus CLR
+bash tax_level_counter.sh species CLR
+bash tax_level_counter.sh lowest CLR
+bash tax_level_counter.sh family CCS
+bash tax_level_counter.sh genus CCS
+bash tax_level_counter.sh species CCS
+bash tax_level_counter.sh lowest CCS
+
+
+
+
+
+
+
+
+
+

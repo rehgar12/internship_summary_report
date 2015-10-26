@@ -1,0 +1,85 @@
+Breaking out each read from fasta and fastq files into a file of their own.
+
+___________________________________________________________________________________________
+Kraken:
+initial output of kraken is already on a read-by-read basis. The fasta header is in the 
+second column of this output. This output.kraken file was split into a file per organism, 
+then kraken-report was run on each of these files.
+	1.	go to directory where you want the 26 files generated from the following commands:
+sort -k2 ../MiSeq_meta_sim.fa.kraken | split -l 1000 -d -a 2
+sort -k2 ../PacBio_CLR_meta_sim.fa.kraken | split -l 1000 -d -a 2
+sort -k2 ../PacBio_CCS_meta_sim.fa.kraken | split -l 1000 -d -a 2
+	2.	rename files to have GI number in the filename
+	3.	run kraken-report per organism
+qsub krakenReport_MiSeq.sh
+qsub krakenReport_CLR.sh
+qsub krakenReport_CCS.sh
+	4.	parse reports and calculate stats (genus, species, and NORANK <bacteria only> taxonomy levels)
+		format is (true_gi,true_ti,TP,FP,FN)
+>FAMILY
+bash kraken_stats_alpha.sh true_gi_taxid_list_F.tsv reports_MiSeq/ > kraken_STATS_F_MiSeq.csv
+bash kraken_stats_alpha.sh true_gi_taxid_list_F.tsv reports_CLR/ > kraken_STATS_F_CLR.csv
+bash kraken_stats_alpha.sh true_gi_taxid_list_F.tsv reports_CCS/ > kraken_STATS_F_CCS.csv
+>GENUS
+bash kraken_stats_alpha.sh true_gi_taxid_list_G.tsv reports_MiSeq/ > kraken_STATS_G_MiSeq.csv
+bash kraken_stats_alpha.sh true_gi_taxid_list_G.tsv reports_CLR/ > kraken_STATS_G_CLR.csv
+bash kraken_stats_alpha.sh true_gi_taxid_list_G.tsv reports_CCS/ > kraken_STATS_G_CCS.csv
+>SPECIES
+bash kraken_stats_alpha.sh true_gi_taxid_list_S.tsv reports_MiSeq/ > kraken_STATS_S_MiSeq.csv
+bash kraken_stats_alpha.sh true_gi_taxid_list_S.tsv reports_CLR/ > kraken_STATS_S_CLR.csv
+bash kraken_stats_alpha.sh true_gi_taxid_list_S.tsv reports_CCS/ > kraken_STATS_S_CCS.csv
+>NORANK (this is the designation given on the NCBI taxonomy website for anything below species, 
+for example, a strain)
+bash kraken_stats_alpha.sh true_gi_taxid_list_NORANK.tsv reports_MiSeq/ > kraken_STATS_NORANK_MiSeq.csv
+bash kraken_stats_alpha.sh true_gi_taxid_list_NORANK.tsv reports_CLR/ > kraken_STATS_NORANK_CLR.csv
+bash kraken_stats_alpha.sh true_gi_taxid_list_NORANK.tsv reports_CCS/ > kraken_STATS_NORANK_CCS.csv
+
+___________________________________________________________________________________________
+BlastN
+Parsing the b6 formatted output from initial blastn runs.
+	1. 	cut first and second columns on each line | sort | uniq |
+		cut at pipe '|' and replace with tab, grab only gi_true and gi_pred | sort | uniq count |
+		sed substitute leading spaces with nothing, then any spaces after count with tab > output to tsv file format is (read_count_for_predicted_gi	true_gi	predicted_gi)
+cut -f1,2 results_in_b6/MiSeq_meta_sim.fa.b6 | sort | uniq | cut -d'|' --output-delimiter $'\t' -f2,6 | sort | uniq -c | sed -e 's/^ *//' -e 's/ \+/\t/g' > gi_pair_count_MiSeq.tsv
+cut -f1,2 results_in_b6/CLR_meta_sim.fa.b6 | sort | uniq | cut -d'|' --output-delimiter $'\t' -f2,6 | sort | uniq -c | sed -e 's/^ *//' -e 's/ \+/\t/g' > gi_pair_count_CLR.tsv
+cut -f1,2 results_in_b6/CCS_meta_sim.fa.b6 | sort | uniq | cut -d'|' --output-delimiter $'\t' -f2,6 | sort | uniq -c | sed -e 's/^ *//' -e 's/ \+/\t/g' > gi_pair_count_CCS.tsv
+	2.	parse tsv and calculate stats
+		format is (true_gi,TP_count,FP_count,FN_count)
+bash gi_pair_stats.sh gi_pair_count_MiSeq.tsv true_gi_list.tsv > blastn_STATS_MiSeq.csv
+bash gi_pair_stats.sh gi_pair_count_CLR.tsv true_gi_list.tsv > blastn_STATS_CLR.csv
+bash gi_pair_stats.sh gi_pair_count_CCS.tsv true_gi_list.tsv > blastn_STATS_CCS.csv
+
+
+___________________________________________________________________________________________
+Pathoscope:
+	1. 	Making new fq files from metagenomic input files. Breaking out the 1000 reads from each
+		organism, then running patho_MAP on each of these 26 fastq files.
+qsub patho_single_MAP_MiSeq.sh
+qsub patho_single_MAP_CLR.sh
+qsub patho_single_MAP_CCS.sh
+	2.	For each of the 26 sam files (organism GI part of filename with extension .IDinput) for 
+		each read type, run patho ID to get tsv output.
+qsub patho_single_ID_MiSeq.sh
+qsub patho_single_ID_CLR.sh
+qsub patho_single_ID_CCS.sh
+		**	Some alignment files (especially for CLR reads) will be empty, this results in a
+			traceback error, and will be interpreted as 1000 false negative results per
+			organism for such absent files from patho_ID.
+	3.	parse report.tsv files for each organism and each read type.
+		format is (true_gi,true_taxid,predicted_taxid,TP_count,FN_count)
+bash parse_patho_STATS_MiSeq.sh true_gi_taxid_list.tsv > patho_STATS_MiSeq.csv
+bash parse_patho_STATS_CLR.sh true_gi_taxid_list.tsv > patho_STATS_CLR.csv
+bash parse_patho_STATS_CCS.sh true_gi_taxid_list.tsv > patho_STATS_CCS.csv
+		**	because of the empty alignment files from patho MAP for the CLR and CCS reads, 
+			patho ID had no output from those gi to analyze. Again, these will be considered
+			as 1000 false negative reads for those gis.
+
+
+
+
+
+
+
+
+
+

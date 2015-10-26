@@ -1,0 +1,2544 @@
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d5.NC_017726.fna
+data-type : CLR
+depth : 40.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_017726.fna
+
+ref.1 (len:181700) : gi|386733559|ref|NC_017726.1| Bacillus anthracis str. H9401 plasmid BAP1, complete sequence
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 2387
+depth : 40.000314
+read length mean (SD) : 3044.850021 (2355.103872)
+read length min : 100
+read length max : 23456
+read accuracy mean (SD) : 0.781468 (0.018764)
+substitution rate. : 0.021861
+insertion rate. : 0.131016
+deletion rate. : 0.065933
+
+:::: System utilization ::::
+
+CPU time(s) : 0
+Elapsed time(s) : 1
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d5.NC_017726.fna
+data-type : CCS
+depth : 5.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_017726.fna
+
+ref.1 (len:181700) : gi|386733559|ref|NC_017726.1| Bacillus anthracis str. H9401 plasmid BAP1, complete sequence
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 2017
+depth : 5.000204
+read length mean (SD) : 450.439762 (168.932950)
+read length min : 100
+read length max : 1727
+read accuracy mean (SD) : 0.983903 (0.018769)
+substitution rate. : 0.000960
+insertion rate. : 0.003431
+deletion rate. : 0.014494
+
+:::: System utilization ::::
+
+CPU time(s) : 0
+Elapsed time(s) : 0
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d5.NC_016945.fna
+data-type : CLR
+depth : 40.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_016945.fna
+
+ref.1 (len:1072136) : gi|379743460|ref|NC_016945.1| Vibrio cholerae IEC224 chromosome II, complete sequence
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 14359
+depth : 40.000000
+read length mean (SD) : 2986.659238 (2234.106049)
+read length min : 172
+read length max : 24499
+read accuracy mean (SD) : 0.781401 (0.018647)
+substitution rate. : 0.021863
+insertion rate. : 0.131249
+deletion rate. : 0.065993
+
+:::: System utilization ::::
+
+CPU time(s) : 3
+Elapsed time(s) : 4
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d5.NC_016945.fna
+data-type : CCS
+depth : 5.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_016945.fna
+
+ref.1 (len:1072136) : gi|379743460|ref|NC_016945.1| Vibrio cholerae IEC224 chromosome II, complete sequence
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 11894
+depth : 5.000000
+read length mean (SD) : 450.704557 (170.866693)
+read length min : 113
+read length max : 1615
+read accuracy mean (SD) : 0.984098 (0.018901)
+substitution rate. : 0.000954
+insertion rate. : 0.003404
+deletion rate. : 0.014649
+
+:::: System utilization ::::
+
+CPU time(s) : 0
+Elapsed time(s) : 1
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d5.NC_012655.fna
+data-type : CLR
+depth : 40.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_012655.fna
+
+ref.1 (len:94830) : gi|229599623|ref|NC_012655.1| Bacillus anthracis str. A0248 plasmid pXO2, complete sequence
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 1292
+depth : 40.000000
+read length mean (SD) : 2935.913313 (2231.074353)
+read length min : 167
+read length max : 17310
+read accuracy mean (SD) : 0.780826 (0.018182)
+substitution rate. : 0.022013
+insertion rate. : 0.131438
+deletion rate. : 0.065958
+
+:::: System utilization ::::
+
+CPU time(s) : 0
+Elapsed time(s) : 0
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d5.NC_012655.fna
+data-type : CCS
+depth : 5.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_012655.fna
+
+ref.1 (len:94830) : gi|229599623|ref|NC_012655.1| Bacillus anthracis str. A0248 plasmid pXO2, complete sequence
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 1056
+depth : 5.000000
+read length mean (SD) : 449.005682 (166.527946)
+read length min : 125
+read length max : 1364
+read accuracy mean (SD) : 0.983415 (0.019475)
+substitution rate. : 0.001021
+insertion rate. : 0.003370
+deletion rate. : 0.014498
+
+:::: System utilization ::::
+
+CPU time(s) : 0
+Elapsed time(s) : 0
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d5.NC_017214.fna
+data-type : CLR
+depth : 40.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_017214.fna
+
+ref.1 (len:1942198) : gi|384189768|ref|NC_017214.1| Bifidobacterium animalis subsp. lactis BB-12 chromosome, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 25793
+depth : 40.000000
+read length mean (SD) : 3011.976893 (2260.738093)
+read length min : 167
+read length max : 24353
+read accuracy mean (SD) : 0.781482 (0.018603)
+substitution rate. : 0.021868
+insertion rate. : 0.131119
+deletion rate. : 0.066061
+
+:::: System utilization ::::
+
+CPU time(s) : 6
+Elapsed time(s) : 8
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d5.NC_017214.fna
+data-type : CCS
+depth : 5.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_017214.fna
+
+ref.1 (len:1942198) : gi|384189768|ref|NC_017214.1| Bifidobacterium animalis subsp. lactis BB-12 chromosome, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 21584
+depth : 5.000000
+read length mean (SD) : 449.916142 (167.579239)
+read length min : 109
+read length max : 1581
+read accuracy mean (SD) : 0.983827 (0.019275)
+substitution rate. : 0.000967
+insertion rate. : 0.003384
+deletion rate. : 0.014642
+
+:::: System utilization ::::
+
+CPU time(s) : 0
+Elapsed time(s) : 1
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d5.NC_015214.fna
+data-type : CLR
+depth : 40.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_015214.fna
+
+ref.1 (len:2078001) : gi|325955721|ref|NC_015214.1| Lactobacillus acidophilus 30SC chromosome, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 27879
+depth : 40.000000
+read length mean (SD) : 2981.457011 (2249.009295)
+read length min : 123
+read length max : 23943
+read accuracy mean (SD) : 0.781447 (0.018662)
+substitution rate. : 0.021863
+insertion rate. : 0.131163
+deletion rate. : 0.065987
+
+:::: System utilization ::::
+
+CPU time(s) : 7
+Elapsed time(s) : 8
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d5.NC_015214.fna
+data-type : CCS
+depth : 5.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_015214.fna
+
+ref.1 (len:2078001) : gi|325955721|ref|NC_015214.1| Lactobacillus acidophilus 30SC chromosome, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 23037
+depth : 5.000000
+read length mean (SD) : 451.013804 (169.328439)
+read length min : 101
+read length max : 1925
+read accuracy mean (SD) : 0.984117 (0.019011)
+substitution rate. : 0.000954
+insertion rate. : 0.003376
+deletion rate. : 0.014522
+
+:::: System utilization ::::
+
+CPU time(s) : 0
+Elapsed time(s) : 1
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d5.NC_010723.fna
+data-type : CLR
+depth : 40.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_010723.fna
+
+ref.1 (len:3659644) : gi|188587536|ref|NC_010723.1| Clostridium botulinum E3 str. Alaska E43 chromosome, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 48769
+depth : 40.000000
+read length mean (SD) : 3001.614960 (2241.863899)
+read length min : 152
+read length max : 24809
+read accuracy mean (SD) : 0.781427 (0.018862)
+substitution rate. : 0.021850
+insertion rate. : 0.131186
+deletion rate. : 0.066009
+
+:::: System utilization ::::
+
+CPU time(s) : 12
+Elapsed time(s) : 14
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d5.NC_010723.fna
+data-type : CCS
+depth : 5.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_010723.fna
+
+ref.1 (len:3659644) : gi|188587536|ref|NC_010723.1| Clostridium botulinum E3 str. Alaska E43 chromosome, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 40676
+depth : 5.000000
+read length mean (SD) : 449.852985 (169.515850)
+read length min : 105
+read length max : 2089
+read accuracy mean (SD) : 0.984043 (0.019145)
+substitution rate. : 0.000954
+insertion rate. : 0.003373
+deletion rate. : 0.014577
+
+:::: System utilization ::::
+
+CPU time(s) : 1
+Elapsed time(s) : 2
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d5.NC_022369.fna
+data-type : CLR
+depth : 40.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_022369.fna
+
+ref.1 (len:2427048) : gi|544393402|ref|NC_022369.1| Lactococcus lactis subsp. cremoris KW2, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 32484
+depth : 40.000000
+read length mean (SD) : 2988.607314 (2260.319334)
+read length min : 142
+read length max : 24212
+read accuracy mean (SD) : 0.781467 (0.018679)
+substitution rate. : 0.021872
+insertion rate. : 0.131118
+deletion rate. : 0.065975
+
+:::: System utilization ::::
+
+CPU time(s) : 8
+Elapsed time(s) : 9
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d5.NC_022369.fna
+data-type : CCS
+depth : 5.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_022369.fna
+
+ref.1 (len:2427048) : gi|544393402|ref|NC_022369.1| Lactococcus lactis subsp. cremoris KW2, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 26932
+depth : 5.000031
+read length mean (SD) : 450.590933 (169.478803)
+read length min : 100
+read length max : 1847
+read accuracy mean (SD) : 0.984058 (0.019024)
+substitution rate. : 0.000945
+insertion rate. : 0.003361
+deletion rate. : 0.014642
+
+:::: System utilization ::::
+
+CPU time(s) : 1
+Elapsed time(s) : 1
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d5.NC_017644.fna
+data-type : CLR
+depth : 40.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_017644.fna
+
+ref.1 (len:4971461) : gi|386617516|ref|NC_017644.1| Escherichia coli NA114 chromosome, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 66282
+depth : 40.000000
+read length mean (SD) : 3000.187683 (2273.746769)
+read length min : 113
+read length max : 24973
+read accuracy mean (SD) : 0.781562 (0.018798)
+substitution rate. : 0.021843
+insertion rate. : 0.131086
+deletion rate. : 0.065983
+
+:::: System utilization ::::
+
+CPU time(s) : 17
+Elapsed time(s) : 19
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d5.NC_017644.fna
+data-type : CCS
+depth : 5.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_017644.fna
+
+ref.1 (len:4971461) : gi|386617516|ref|NC_017644.1| Escherichia coli NA114 chromosome, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 55246
+depth : 5.000000
+read length mean (SD) : 449.938548 (169.116300)
+read length min : 102
+read length max : 2089
+read accuracy mean (SD) : 0.983929 (0.019298)
+substitution rate. : 0.000959
+insertion rate. : 0.003401
+deletion rate. : 0.014580
+
+:::: System utilization ::::
+
+CPU time(s) : 2
+Elapsed time(s) : 2
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d5.NC_005945.fna
+data-type : CLR
+depth : 40.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_005945.fna
+
+ref.1 (len:5228663) : gi|49183039|ref|NC_005945.1| Bacillus anthracis str. Sterne chromosome, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 69996
+depth : 40.000000
+read length mean (SD) : 2987.978170 (2267.048895)
+read length min : 161
+read length max : 24973
+read accuracy mean (SD) : 0.781517 (0.018766)
+substitution rate. : 0.021862
+insertion rate. : 0.131135
+deletion rate. : 0.066006
+
+:::: System utilization ::::
+
+CPU time(s) : 18
+Elapsed time(s) : 20
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d5.NC_005945.fna
+data-type : CCS
+depth : 5.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_005945.fna
+
+ref.1 (len:5228663) : gi|49183039|ref|NC_005945.1| Bacillus anthracis str. Sterne chromosome, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 58080
+depth : 5.000000
+read length mean (SD) : 450.125947 (169.762939)
+read length min : 101
+read length max : 1847
+read accuracy mean (SD) : 0.983960 (0.019286)
+substitution rate. : 0.000966
+insertion rate. : 0.003369
+deletion rate. : 0.014591
+
+:::: System utilization ::::
+
+CPU time(s) : 2
+Elapsed time(s) : 3
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d5.NC_002946.fna
+data-type : CLR
+depth : 40.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_002946.fna
+
+ref.1 (len:2153922) : gi|59800473|ref|NC_002946.2| Neisseria gonorrhoeae FA 1090 chromosome, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 28918
+depth : 40.000000
+read length mean (SD) : 2979.351269 (2218.376628)
+read length min : 152
+read length max : 24499
+read accuracy mean (SD) : 0.781460 (0.018639)
+substitution rate. : 0.021836
+insertion rate. : 0.131125
+deletion rate. : 0.065997
+
+:::: System utilization ::::
+
+CPU time(s) : 7
+Elapsed time(s) : 8
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d5.NC_002946.fna
+data-type : CCS
+depth : 5.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_002946.fna
+
+ref.1 (len:2153922) : gi|59800473|ref|NC_002946.2| Neisseria gonorrhoeae FA 1090 chromosome, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 23939
+depth : 5.000000
+read length mean (SD) : 449.877188 (169.392639)
+read length min : 104
+read length max : 1727
+read accuracy mean (SD) : 0.983874 (0.019282)
+substitution rate. : 0.000986
+insertion rate. : 0.003384
+deletion rate. : 0.014616
+
+:::: System utilization ::::
+
+CPU time(s) : 1
+Elapsed time(s) : 1
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d5.NC_003028.fna
+data-type : CLR
+depth : 40.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_003028.fna
+
+ref.1 (len:2160842) : gi|194172857|ref|NC_003028.3| Streptococcus pneumoniae TIGR4 chromosome, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 28851
+depth : 40.000000
+read length mean (SD) : 2995.864268 (2269.165452)
+read length min : 142
+read length max : 23816
+read accuracy mean (SD) : 0.781626 (0.018733)
+substitution rate. : 0.021845
+insertion rate. : 0.130971
+deletion rate. : 0.065985
+
+:::: System utilization ::::
+
+CPU time(s) : 7
+Elapsed time(s) : 8
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d5.NC_003028.fna
+data-type : CCS
+depth : 5.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_003028.fna
+
+ref.1 (len:2160842) : gi|194172857|ref|NC_003028.3| Streptococcus pneumoniae TIGR4 chromosome, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 24044
+depth : 5.000005
+read length mean (SD) : 449.352063 (170.292142)
+read length min : 100
+read length max : 1591
+read accuracy mean (SD) : 0.983979 (0.019251)
+substitution rate. : 0.000950
+insertion rate. : 0.003379
+deletion rate. : 0.014612
+
+:::: System utilization ::::
+
+CPU time(s) : 0
+Elapsed time(s) : 1
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d5.NC_003997.fna
+data-type : CLR
+depth : 40.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_003997.fna
+
+ref.1 (len:5227293) : gi|30260195|ref|NC_003997.3| Bacillus anthracis str. Ames chromosome, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 69949
+depth : 40.000000
+read length mean (SD) : 2989.202419 (2246.263348)
+read length min : 142
+read length max : 24973
+read accuracy mean (SD) : 0.781375 (0.018739)
+substitution rate. : 0.021842
+insertion rate. : 0.131126
+deletion rate. : 0.065995
+
+:::: System utilization ::::
+
+CPU time(s) : 18
+Elapsed time(s) : 21
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d5.NC_003997.fna
+data-type : CCS
+depth : 5.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_003997.fna
+
+ref.1 (len:5227293) : gi|30260195|ref|NC_003997.3| Bacillus anthracis str. Ames chromosome, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 58128
+depth : 5.000000
+read length mean (SD) : 449.636406 (169.797661)
+read length min : 102
+read length max : 1925
+read accuracy mean (SD) : 0.983876 (0.019298)
+substitution rate. : 0.000967
+insertion rate. : 0.003382
+deletion rate. : 0.014568
+
+:::: System utilization ::::
+
+CPU time(s) : 2
+Elapsed time(s) : 2
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d5.NC_017537.fna
+data-type : CLR
+depth : 40.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_017537.fna
+
+ref.1 (len:2976163) : gi|386025288|ref|NC_017537.1| Listeria monocytogenes M7 chromosome, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 39703
+depth : 40.000000
+read length mean (SD) : 2998.426315 (2255.036572)
+read length min : 123
+read length max : 24212
+read accuracy mean (SD) : 0.781461 (0.018875)
+substitution rate. : 0.021862
+insertion rate. : 0.131153
+deletion rate. : 0.066030
+
+:::: System utilization ::::
+
+CPU time(s) : 10
+Elapsed time(s) : 11
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d5.NC_017537.fna
+data-type : CCS
+depth : 5.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_017537.fna
+
+ref.1 (len:2976163) : gi|386025288|ref|NC_017537.1| Listeria monocytogenes M7 chromosome, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 33006
+depth : 5.000000
+read length mean (SD) : 450.851815 (170.865657)
+read length min : 101
+read length max : 2089
+read accuracy mean (SD) : 0.983902 (0.019187)
+substitution rate. : 0.000968
+insertion rate. : 0.003387
+deletion rate. : 0.014556
+
+:::: System utilization ::::
+
+CPU time(s) : 1
+Elapsed time(s) : 2
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d5.NC_002952.fna
+data-type : CLR
+depth : 40.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_002952.fna
+
+ref.1 (len:2902619) : gi|49482253|ref|NC_002952.2| Staphylococcus aureus subsp. aureus MRSA252 chromosome, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 38951
+depth : 40.000000
+read length mean (SD) : 2980.790224 (2227.306302)
+read length min : 152
+read length max : 24353
+read accuracy mean (SD) : 0.781562 (0.018725)
+substitution rate. : 0.021844
+insertion rate. : 0.131103
+deletion rate. : 0.065961
+
+:::: System utilization ::::
+
+CPU time(s) : 10
+Elapsed time(s) : 11
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d5.NC_002952.fna
+data-type : CCS
+depth : 5.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_002952.fna
+
+ref.1 (len:2902619) : gi|49482253|ref|NC_002952.2| Staphylococcus aureus subsp. aureus MRSA252 chromosome, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 32183
+depth : 5.000000
+read length mean (SD) : 450.955318 (171.986629)
+read length min : 101
+read length max : 1847
+read accuracy mean (SD) : 0.984009 (0.019038)
+substitution rate. : 0.000960
+insertion rate. : 0.003361
+deletion rate. : 0.014594
+
+:::: System utilization ::::
+
+CPU time(s) : 1
+Elapsed time(s) : 2
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d5.NC_003980.fna
+data-type : CLR
+depth : 40.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_003980.fna
+
+ref.1 (len:181677) : gi|21392688|ref|NC_003980.1| Bacillus anthracis str. A2012 plasmid pXO1, complete sequence
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 2424
+depth : 40.000000
+read length mean (SD) : 2997.970297 (2259.676763)
+read length min : 203
+read length max : 21875
+read accuracy mean (SD) : 0.781459 (0.018538)
+substitution rate. : 0.021850
+insertion rate. : 0.131470
+deletion rate. : 0.066073
+
+:::: System utilization ::::
+
+CPU time(s) : 0
+Elapsed time(s) : 0
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d5.NC_003980.fna
+data-type : CCS
+depth : 5.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_003980.fna
+
+ref.1 (len:181677) : gi|21392688|ref|NC_003980.1| Bacillus anthracis str. A2012 plasmid pXO1, complete sequence
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 2021
+depth : 5.000000
+read length mean (SD) : 449.473033 (169.447339)
+read length min : 115
+read length max : 1795
+read accuracy mean (SD) : 0.984011 (0.020317)
+substitution rate. : 0.001019
+insertion rate. : 0.003330
+deletion rate. : 0.014608
+
+:::: System utilization ::::
+
+CPU time(s) : 0
+Elapsed time(s) : 0
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d5.NC_012577.fna
+data-type : CLR
+depth : 40.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_012577.fna
+
+ref.1 (len:94875) : gi|227811309|ref|NC_012577.1| Bacillus anthracis str. CDC 684 plasmid pX02, complete sequence
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 1272
+depth : 40.000000
+read length mean (SD) : 2983.490566 (2278.620727)
+read length min : 203
+read length max : 21875
+read accuracy mean (SD) : 0.781357 (0.018848)
+substitution rate. : 0.021964
+insertion rate. : 0.131733
+deletion rate. : 0.066069
+
+:::: System utilization ::::
+
+CPU time(s) : 0
+Elapsed time(s) : 1
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d5.NC_012577.fna
+data-type : CCS
+depth : 5.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Bacteria/NC_012577.fna
+
+ref.1 (len:94875) : gi|227811309|ref|NC_012577.1| Bacillus anthracis str. CDC 684 plasmid pX02, complete sequence
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 1072
+depth : 5.000000
+read length mean (SD) : 442.513993 (169.624381)
+read length min : 102
+read length max : 1523
+read accuracy mean (SD) : 0.984212 (0.020301)
+substitution rate. : 0.000972
+insertion rate. : 0.003428
+deletion rate. : 0.014927
+
+:::: System utilization ::::
+
+CPU time(s) : 0
+Elapsed time(s) : 0
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d100.NC_006432.ffn
+data-type : CLR
+depth : 1000.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Viruses/NC_006432.ffn
+
+ref.1 (len:2217) : gi|55770807|ref|NC_006432.1|:458-2674 Sudan ebolavirus, complete genome
+ref.2 (len:990) : gi|55770807|ref|NC_006432.1|:3138-4127 Sudan ebolavirus, complete genome
+ref.3 (len:981) : gi|55770807|ref|NC_006432.1|:4454-5434 Sudan ebolavirus, complete genome
+ref.4 (len:2030) : gi|55770807|ref|NC_006432.1|:5998-6882,6882-8027 Sudan ebolavirus, complete genome
+ref.5 (len:1119) : gi|55770807|ref|NC_006432.1|:5998-7116 Sudan ebolavirus, complete genome
+ref.6 (len:867) : gi|55770807|ref|NC_006432.1|:8441-9307 Sudan ebolavirus, complete genome
+ref.7 (len:756) : gi|55770807|ref|NC_006432.1|:10299-11054 Sudan ebolavirus, complete genome
+ref.8 (len:6633) : gi|55770807|ref|NC_006432.1|:11535-18167 Sudan ebolavirus, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 1265
+depth : 1000.000000
+read length mean (SD) : 1752.569170 (474.233411)
+read length min : 206
+read length max : 2106
+read accuracy mean (SD) : 0.780778 (0.018893)
+substitution rate. : 0.022099
+insertion rate. : 0.131424
+deletion rate. : 0.114177
+
+:::: Simulation stats (ref.2) ::::
+
+read num. : 1085
+depth : 1000.000000
+read length mean (SD) : 912.442396 (70.675618)
+read length min : 193
+read length max : 948
+read accuracy mean (SD) : 0.781950 (0.018942)
+substitution rate. : 0.021812
+insertion rate. : 0.130560
+deletion rate. : 0.216125
+
+:::: Simulation stats (ref.3) ::::
+
+read num. : 1089
+depth : 1000.000000
+read length mean (SD) : 900.826446 (80.547257)
+read length min : 284
+read length max : 942
+read accuracy mean (SD) : 0.781530 (0.019532)
+substitution rate. : 0.021955
+insertion rate. : 0.131227
+deletion rate. : 0.223352
+
+:::: Simulation stats (ref.4) ::::
+
+read num. : 1215
+depth : 1000.000000
+read length mean (SD) : 1670.781893 (384.677090)
+read length min : 342
+read length max : 1942
+read accuracy mean (SD) : 0.780724 (0.018503)
+substitution rate. : 0.021994
+insertion rate. : 0.131675
+deletion rate. : 0.121773
+
+:::: Simulation stats (ref.5) ::::
+
+read num. : 1098
+depth : 1000.000000
+read length mean (SD) : 1019.125683 (103.589769)
+read length min : 232
+read length max : 1074
+read accuracy mean (SD) : 0.783016 (0.020069)
+substitution rate. : 0.021585
+insertion rate. : 0.130226
+deletion rate. : 0.196906
+
+:::: Simulation stats (ref.6) ::::
+
+read num. : 1077
+depth : 1000.000000
+read length mean (SD) : 805.013928 (44.314953)
+read length min : 215
+read length max : 831
+read accuracy mean (SD) : 0.781045 (0.019009)
+substitution rate. : 0.021992
+insertion rate. : 0.131333
+deletion rate. : 0.251348
+
+:::: Simulation stats (ref.7) ::::
+
+read num. : 1074
+depth : 1000.000000
+read length mean (SD) : 703.910615 (36.264513)
+read length min : 274
+read length max : 727
+read accuracy mean (SD) : 0.780175 (0.018732)
+substitution rate. : 0.021910
+insertion rate. : 0.131992
+deletion rate. : 0.270007
+
+:::: Simulation stats (ref.8) ::::
+
+read num. : 2389
+depth : 1000.000000
+read length mean (SD) : 2776.475513 (1602.307309)
+read length min : 190
+read length max : 6280
+read accuracy mean (SD) : 0.780956 (0.018771)
+substitution rate. : 0.021855
+insertion rate. : 0.131524
+deletion rate. : 0.070100
+
+:::: System utilization ::::
+
+CPU time(s) : 2
+Elapsed time(s) : 2
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d100.NC_006432.ffn
+data-type : CCS
+depth : 400.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Viruses/NC_006432.ffn
+
+ref.1 (len:2217) : gi|55770807|ref|NC_006432.1|:458-2674 Sudan ebolavirus, complete genome
+ref.2 (len:990) : gi|55770807|ref|NC_006432.1|:3138-4127 Sudan ebolavirus, complete genome
+ref.3 (len:981) : gi|55770807|ref|NC_006432.1|:4454-5434 Sudan ebolavirus, complete genome
+ref.4 (len:2030) : gi|55770807|ref|NC_006432.1|:5998-6882,6882-8027 Sudan ebolavirus, complete genome
+ref.5 (len:1119) : gi|55770807|ref|NC_006432.1|:5998-7116 Sudan ebolavirus, complete genome
+ref.6 (len:867) : gi|55770807|ref|NC_006432.1|:8441-9307 Sudan ebolavirus, complete genome
+ref.7 (len:756) : gi|55770807|ref|NC_006432.1|:10299-11054 Sudan ebolavirus, complete genome
+ref.8 (len:6633) : gi|55770807|ref|NC_006432.1|:11535-18167 Sudan ebolavirus, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 1985
+depth : 400.000000
+read length mean (SD) : 446.750630 (170.156934)
+read length min : 112
+read length max : 1795
+read accuracy mean (SD) : 0.984112 (0.018704)
+substitution rate. : 0.000902
+insertion rate. : 0.003409
+deletion rate. : 0.014592
+
+:::: Simulation stats (ref.2) ::::
+
+read num. : 870
+depth : 400.000000
+read length mean (SD) : 455.172414 (161.890250)
+read length min : 129
+read length max : 983
+read accuracy mean (SD) : 0.984669 (0.017788)
+substitution rate. : 0.000985
+insertion rate. : 0.003202
+deletion rate. : 0.014515
+
+:::: Simulation stats (ref.3) ::::
+
+read num. : 877
+depth : 400.000000
+read length mean (SD) : 447.434436 (165.880160)
+read length min : 124
+read length max : 973
+read accuracy mean (SD) : 0.984602 (0.018673)
+substitution rate. : 0.000999
+insertion rate. : 0.003078
+deletion rate. : 0.014709
+
+:::: Simulation stats (ref.4) ::::
+
+read num. : 1785
+depth : 400.000000
+read length mean (SD) : 454.901961 (173.796706)
+read length min : 101
+read length max : 1530
+read accuracy mean (SD) : 0.983805 (0.018801)
+substitution rate. : 0.000985
+insertion rate. : 0.003393
+deletion rate. : 0.014718
+
+:::: Simulation stats (ref.5) ::::
+
+read num. : 1000
+depth : 400.000000
+read length mean (SD) : 447.600000 (165.160704)
+read length min : 122
+read length max : 1103
+read accuracy mean (SD) : 0.982419 (0.021287)
+substitution rate. : 0.001041
+insertion rate. : 0.003575
+deletion rate. : 0.014964
+
+:::: Simulation stats (ref.6) ::::
+
+read num. : 769
+depth : 400.000000
+read length mean (SD) : 450.975293 (153.958038)
+read length min : 140
+read length max : 860
+read accuracy mean (SD) : 0.984245 (0.020150)
+substitution rate. : 0.000969
+insertion rate. : 0.003319
+deletion rate. : 0.014801
+
+:::: Simulation stats (ref.7) ::::
+
+read num. : 680
+depth : 400.000000
+read length mean (SD) : 444.705882 (148.601843)
+read length min : 132
+read length max : 751
+read accuracy mean (SD) : 0.984297 (0.019250)
+substitution rate. : 0.000893
+insertion rate. : 0.003462
+deletion rate. : 0.014864
+
+:::: Simulation stats (ref.8) ::::
+
+read num. : 5890
+depth : 400.000000
+read length mean (SD) : 450.458404 (170.508266)
+read length min : 126
+read length max : 1727
+read accuracy mean (SD) : 0.984170 (0.019223)
+substitution rate. : 0.000954
+insertion rate. : 0.003371
+deletion rate. : 0.014674
+
+:::: System utilization ::::
+
+CPU time(s) : 0
+Elapsed time(s) : 1
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d100.NC_001517.ffn
+data-type : CLR
+depth : 1000.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Viruses/NC_001517.ffn
+
+ref.1 (len:9207) : gi|9627034|ref|NC_001517.1|:168-9374 Pepper mottle virus, complete genome
+ref.2 (len:225) : gi|9627034|ref|NC_001517.1|:2900-3124 Pepper mottle virus, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 3155
+depth : 1000.000000
+read length mean (SD) : 2918.225040 (1917.472601)
+read length min : 304
+read length max : 8687
+read accuracy mean (SD) : 0.781143 (0.018584)
+substitution rate. : 0.021993
+insertion rate. : 0.131380
+deletion rate. : 0.067479
+
+:::: Simulation stats (ref.2) ::::
+
+read num. : 1066
+depth : 1000.000000
+read length mean (SD) : 211.069418 (3.215357)
+read length min : 200
+read length max : 221
+read accuracy mean (SD) : 0.780816 (0.023979)
+substitution rate. : 0.021871
+insertion rate. : 0.131467
+deletion rate. : 0.975160
+
+:::: System utilization ::::
+
+CPU time(s) : 0
+Elapsed time(s) : 1
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d100.NC_001517.ffn
+data-type : CCS
+depth : 400.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Viruses/NC_001517.ffn
+
+ref.1 (len:9207) : gi|9627034|ref|NC_001517.1|:168-9374 Pepper mottle virus, complete genome
+ref.2 (len:225) : gi|9627034|ref|NC_001517.1|:2900-3124 Pepper mottle virus, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 8194
+depth : 400.000000
+read length mean (SD) : 449.450818 (168.820562)
+read length min : 102
+read length max : 1701
+read accuracy mean (SD) : 0.983731 (0.019634)
+substitution rate. : 0.000994
+insertion rate. : 0.003432
+deletion rate. : 0.014586
+
+:::: Simulation stats (ref.2) ::::
+
+read num. : 409
+depth : 400.000000
+read length mean (SD) : 220.048900 (9.708593)
+read length min : 123
+read length max : 225
+read accuracy mean (SD) : 0.984004 (0.019626)
+substitution rate. : 0.001244
+insertion rate. : 0.003456
+deletion rate. : 0.029767
+
+:::: System utilization ::::
+
+CPU time(s) : 0
+Elapsed time(s) : 0
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d100.NC_003443.ffn
+data-type : CLR
+depth : 1000.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Viruses/NC_003443.ffn
+
+ref.1 (len:1629) : gi|19525721|ref|NC_003443.1|:157-1785 Human parainfluenza virus 2, complete genome
+ref.2 (len:1186) : gi|19525721|ref|NC_003443.1|:1993-2481,2480-3178 Human parainfluenza virus 2, complete genome
+ref.3 (len:678) : gi|19525721|ref|NC_003443.1|:1993-2670 Human parainfluenza virus 2, complete genome
+ref.4 (len:1134) : gi|19525721|ref|NC_003443.1|:3479-4612 Human parainfluenza virus 2, complete genome
+ref.5 (len:1656) : gi|19525721|ref|NC_003443.1|:4789-6444 Human parainfluenza virus 2, complete genome
+ref.6 (len:1716) : gi|19525721|ref|NC_003443.1|:6817-8532 Human parainfluenza virus 2, complete genome
+ref.7 (len:6789) : gi|19525721|ref|NC_003443.1|:8793-15581 Human parainfluenza virus 2, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 1164
+depth : 1000.000000
+read length mean (SD) : 1399.484536 (260.947739)
+read length min : 238
+read length max : 1556
+read accuracy mean (SD) : 0.781810 (0.019128)
+substitution rate. : 0.021798
+insertion rate. : 0.130633
+deletion rate. : 0.138260
+
+:::: Simulation stats (ref.2) ::::
+
+read num. : 1099
+depth : 1000.000000
+read length mean (SD) : 1079.162875 (107.134060)
+read length min : 315
+read length max : 1135
+read accuracy mean (SD) : 0.781119 (0.019657)
+substitution rate. : 0.022054
+insertion rate. : 0.131016
+deletion rate. : 0.181141
+
+:::: Simulation stats (ref.3) ::::
+
+read num. : 1072
+depth : 1000.000000
+read length mean (SD) : 632.462687 (27.709758)
+read length min : 198
+read length max : 653
+read accuracy mean (SD) : 0.780772 (0.020374)
+substitution rate. : 0.022373
+insertion rate. : 0.131447
+deletion rate. : 0.314105
+
+:::: Simulation stats (ref.4) ::::
+
+read num. : 1096
+depth : 1000.000000
+read length mean (SD) : 1034.671533 (104.733751)
+read length min : 335
+read length max : 1088
+read accuracy mean (SD) : 0.781503 (0.019044)
+substitution rate. : 0.021960
+insertion rate. : 0.131358
+deletion rate. : 0.187891
+
+:::: Simulation stats (ref.5) ::::
+
+read num. : 1147
+depth : 1000.000000
+read length mean (SD) : 1443.766347 (242.274401)
+read length min : 269
+read length max : 1582
+read accuracy mean (SD) : 0.781139 (0.018798)
+substitution rate. : 0.022021
+insertion rate. : 0.131566
+deletion rate. : 0.140985
+
+:::: Simulation stats (ref.6) ::::
+
+read num. : 1177
+depth : 1000.000000
+read length mean (SD) : 1457.943925 (291.535192)
+read length min : 214
+read length max : 1633
+read accuracy mean (SD) : 0.781022 (0.018409)
+substitution rate. : 0.021762
+insertion rate. : 0.131804
+deletion rate. : 0.130872
+
+:::: Simulation stats (ref.7) ::::
+
+read num. : 2447
+depth : 1000.000000
+read length mean (SD) : 2774.417654 (1642.589592)
+read length min : 280
+read length max : 6415
+read accuracy mean (SD) : 0.782014 (0.019318)
+substitution rate. : 0.021731
+insertion rate. : 0.130782
+deletion rate. : 0.070265
+
+:::: System utilization ::::
+
+CPU time(s) : 1
+Elapsed time(s) : 2
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d100.NC_003443.ffn
+data-type : CCS
+depth : 400.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Viruses/NC_003443.ffn
+
+ref.1 (len:1629) : gi|19525721|ref|NC_003443.1|:157-1785 Human parainfluenza virus 2, complete genome
+ref.2 (len:1186) : gi|19525721|ref|NC_003443.1|:1993-2481,2480-3178 Human parainfluenza virus 2, complete genome
+ref.3 (len:678) : gi|19525721|ref|NC_003443.1|:1993-2670 Human parainfluenza virus 2, complete genome
+ref.4 (len:1134) : gi|19525721|ref|NC_003443.1|:3479-4612 Human parainfluenza virus 2, complete genome
+ref.5 (len:1656) : gi|19525721|ref|NC_003443.1|:4789-6444 Human parainfluenza virus 2, complete genome
+ref.6 (len:1716) : gi|19525721|ref|NC_003443.1|:6817-8532 Human parainfluenza virus 2, complete genome
+ref.7 (len:6789) : gi|19525721|ref|NC_003443.1|:8793-15581 Human parainfluenza virus 2, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 1445
+depth : 400.000000
+read length mean (SD) : 450.934256 (174.675241)
+read length min : 115
+read length max : 1498
+read accuracy mean (SD) : 0.984419 (0.018017)
+substitution rate. : 0.000948
+insertion rate. : 0.003155
+deletion rate. : 0.014702
+
+:::: Simulation stats (ref.2) ::::
+
+read num. : 1062
+depth : 400.008432
+read length mean (SD) : 446.713748 (165.467480)
+read length min : 100
+read length max : 1169
+read accuracy mean (SD) : 0.984837 (0.018991)
+substitution rate. : 0.000866
+insertion rate. : 0.003225
+deletion rate. : 0.014620
+
+:::: Simulation stats (ref.3) ::::
+
+read num. : 614
+depth : 400.000000
+read length mean (SD) : 441.693811 (136.893254)
+read length min : 137
+read length max : 676
+read accuracy mean (SD) : 0.984160 (0.018872)
+substitution rate. : 0.000926
+insertion rate. : 0.003326
+deletion rate. : 0.015096
+
+:::: Simulation stats (ref.4) ::::
+
+read num. : 1014
+depth : 400.000000
+read length mean (SD) : 447.337278 (170.117533)
+read length min : 131
+read length max : 1124
+read accuracy mean (SD) : 0.984148 (0.019044)
+substitution rate. : 0.000924
+insertion rate. : 0.003225
+deletion rate. : 0.014808
+
+:::: Simulation stats (ref.5) ::::
+
+read num. : 1486
+depth : 400.000000
+read length mean (SD) : 445.760431 (164.801469)
+read length min : 130
+read length max : 1530
+read accuracy mean (SD) : 0.983257 (0.019781)
+substitution rate. : 0.000987
+insertion rate. : 0.003442
+deletion rate. : 0.014614
+
+:::: Simulation stats (ref.6) ::::
+
+read num. : 1534
+depth : 400.000000
+read length mean (SD) : 447.457627 (169.211922)
+read length min : 129
+read length max : 1311
+read accuracy mean (SD) : 0.983108 (0.019742)
+substitution rate. : 0.000982
+insertion rate. : 0.003585
+deletion rate. : 0.014375
+
+:::: Simulation stats (ref.7) ::::
+
+read num. : 6050
+depth : 400.000000
+read length mean (SD) : 448.859504 (169.725157)
+read length min : 101
+read length max : 1847
+read accuracy mean (SD) : 0.983992 (0.019074)
+substitution rate. : 0.000967
+insertion rate. : 0.003388
+deletion rate. : 0.014578
+
+:::: System utilization ::::
+
+CPU time(s) : 0
+Elapsed time(s) : 1
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d100.NC_011523.fna
+data-type : CLR
+depth : 1000.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Viruses/NC_011523.fna
+
+ref.1 (len:14398) : gi|211956446|ref|NC_011523.1| Bacillus phage AP50, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 4732
+depth : 1000.000000
+read length mean (SD) : 3042.688081 (2183.487161)
+read length min : 227
+read length max : 13547
+read accuracy mean (SD) : 0.781181 (0.018571)
+substitution rate. : 0.021897
+insertion rate. : 0.131333
+deletion rate. : 0.066111
+
+:::: System utilization ::::
+
+CPU time(s) : 1
+Elapsed time(s) : 2
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d100.NC_011523.fna
+data-type : CCS
+depth : 400.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Viruses/NC_011523.fna
+
+ref.1 (len:14398) : gi|211956446|ref|NC_011523.1| Bacillus phage AP50, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 12753
+depth : 400.006181
+read length mean (SD) : 451.602682 (172.956685)
+read length min : 100
+read length max : 1727
+read accuracy mean (SD) : 0.984109 (0.019417)
+substitution rate. : 0.000942
+insertion rate. : 0.003385
+deletion rate. : 0.014654
+
+:::: System utilization ::::
+
+CPU time(s) : 0
+Elapsed time(s) : 0
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d100.NC_001806.fna
+data-type : CLR
+depth : 1000.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Viruses/NC_001806.fna
+
+ref.1 (len:152261) : gi|9629378|ref|NC_001806.1| Human herpesvirus 1, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 50784
+depth : 1000.000000
+read length mean (SD) : 2998.208097 (2255.313188)
+read length min : 123
+read length max : 24353
+read accuracy mean (SD) : 0.781415 (0.018772)
+substitution rate. : 0.021866
+insertion rate. : 0.131133
+deletion rate. : 0.065991
+
+:::: System utilization ::::
+
+CPU time(s) : 12
+Elapsed time(s) : 14
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d100.NC_001806.fna
+data-type : CCS
+depth : 400.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Viruses/NC_001806.fna
+
+ref.1 (len:152261) : gi|9629378|ref|NC_001806.1| Human herpesvirus 1, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 135446
+depth : 400.000000
+read length mean (SD) : 449.658166 (169.607331)
+read length min : 101
+read length max : 1925
+read accuracy mean (SD) : 0.984033 (0.019205)
+substitution rate. : 0.000956
+insertion rate. : 0.003355
+deletion rate. : 0.014569
+
+:::: System utilization ::::
+
+CPU time(s) : 5
+Elapsed time(s) : 6
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d100.NC_005831.ffn
+data-type : CLR
+depth : 1000.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Viruses/NC_005831.ffn
+
+ref.1 (len:20189) : gi|49169782|ref|NC_005831.2|:287-12439,12439-20475 Human coronavirus NL63, complete genome
+ref.2 (len:4071) : gi|49169782|ref|NC_005831.2|:20472-24542 Human coronavirus NL63, complete genome
+ref.3 (len:678) : gi|49169782|ref|NC_005831.2|:24542-25219 Human coronavirus NL63, complete genome
+ref.4 (len:234) : gi|49169782|ref|NC_005831.2|:25200-25433 Human coronavirus NL63, complete genome
+ref.5 (len:681) : gi|49169782|ref|NC_005831.2|:25442-26122 Human coronavirus NL63, complete genome
+ref.6 (len:1134) : gi|49169782|ref|NC_005831.2|:26133-27266 Human coronavirus NL63, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 6726
+depth : 1000.000000
+read length mean (SD) : 3001.635445 (2246.172714)
+read length min : 167
+read length max : 19001
+read accuracy mean (SD) : 0.781432 (0.018559)
+substitution rate. : 0.021880
+insertion rate. : 0.131188
+deletion rate. : 0.065958
+
+:::: Simulation stats (ref.2) ::::
+
+read num. : 1651
+depth : 1000.000000
+read length mean (SD) : 2465.778316 (1101.619959)
+read length min : 142
+read length max : 3866
+read accuracy mean (SD) : 0.781127 (0.018613)
+substitution rate. : 0.021896
+insertion rate. : 0.131433
+deletion rate. : 0.080112
+
+:::: Simulation stats (ref.3) ::::
+
+read num. : 1072
+depth : 1000.000000
+read length mean (SD) : 632.462687 (25.367017)
+read length min : 282
+read length max : 654
+read accuracy mean (SD) : 0.781650 (0.020067)
+substitution rate. : 0.021879
+insertion rate. : 0.131288
+deletion rate. : 0.324369
+
+:::: Simulation stats (ref.4) ::::
+
+read num. : 1066
+depth : 1000.000000
+read length mean (SD) : 219.512195 (4.264292)
+read length min : 142
+read length max : 232
+read accuracy mean (SD) : 0.781487 (0.023840)
+substitution rate. : 0.022060
+insertion rate. : 0.130983
+deletion rate. : 0.911248
+
+:::: Simulation stats (ref.5) ::::
+
+read num. : 1070
+depth : 1000.000000
+read length mean (SD) : 636.448598 (21.103853)
+read length min : 377
+read length max : 656
+read accuracy mean (SD) : 0.781769 (0.020282)
+substitution rate. : 0.021464
+insertion rate. : 0.131366
+deletion rate. : 0.307098
+
+:::: Simulation stats (ref.6) ::::
+
+read num. : 1098
+depth : 1000.000000
+read length mean (SD) : 1032.786885 (105.260732)
+read length min : 298
+read length max : 1095
+read accuracy mean (SD) : 0.781493 (0.019867)
+substitution rate. : 0.022016
+insertion rate. : 0.131090
+deletion rate. : 0.186769
+
+:::: System utilization ::::
+
+CPU time(s) : 2
+Elapsed time(s) : 3
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d100.NC_005831.ffn
+data-type : CCS
+depth : 400.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Viruses/NC_005831.ffn
+
+ref.1 (len:20189) : gi|49169782|ref|NC_005831.2|:287-12439,12439-20475 Human coronavirus NL63, complete genome
+ref.2 (len:4071) : gi|49169782|ref|NC_005831.2|:20472-24542 Human coronavirus NL63, complete genome
+ref.3 (len:678) : gi|49169782|ref|NC_005831.2|:24542-25219 Human coronavirus NL63, complete genome
+ref.4 (len:234) : gi|49169782|ref|NC_005831.2|:25200-25433 Human coronavirus NL63, complete genome
+ref.5 (len:681) : gi|49169782|ref|NC_005831.2|:25442-26122 Human coronavirus NL63, complete genome
+ref.6 (len:1134) : gi|49169782|ref|NC_005831.2|:26133-27266 Human coronavirus NL63, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 18012
+depth : 400.000594
+read length mean (SD) : 448.346214 (168.951339)
+read length min : 100
+read length max : 1757
+read accuracy mean (SD) : 0.984099 (0.019081)
+substitution rate. : 0.000972
+insertion rate. : 0.003327
+deletion rate. : 0.014631
+
+:::: Simulation stats (ref.2) ::::
+
+read num. : 3613
+depth : 400.000000
+read length mean (SD) : 450.705785 (174.060087)
+read length min : 139
+read length max : 1615
+read accuracy mean (SD) : 0.984012 (0.017924)
+substitution rate. : 0.000967
+insertion rate. : 0.003294
+deletion rate. : 0.014492
+
+:::: Simulation stats (ref.3) ::::
+
+read num. : 623
+depth : 400.000000
+read length mean (SD) : 435.313002 (137.272865)
+read length min : 108
+read length max : 674
+read accuracy mean (SD) : 0.984967 (0.017610)
+substitution rate. : 0.000948
+insertion rate. : 0.003064
+deletion rate. : 0.014790
+
+:::: Simulation stats (ref.4) ::::
+
+read num. : 407
+depth : 400.000000
+read length mean (SD) : 229.975430 (5.263979)
+read length min : 161
+read length max : 234
+read accuracy mean (SD) : 0.982861 (0.018749)
+substitution rate. : 0.001026
+insertion rate. : 0.003462
+deletion rate. : 0.028237
+
+:::: Simulation stats (ref.5) ::::
+
+read num. : 622
+depth : 400.000000
+read length mean (SD) : 437.942122 (138.394608)
+read length min : 158
+read length max : 679
+read accuracy mean (SD) : 0.983896 (0.019539)
+substitution rate. : 0.001116
+insertion rate. : 0.003227
+deletion rate. : 0.014831
+
+:::: Simulation stats (ref.6) ::::
+
+read num. : 1028
+depth : 400.000000
+read length mean (SD) : 441.245136 (162.188553)
+read length min : 107
+read length max : 1123
+read accuracy mean (SD) : 0.984024 (0.019454)
+substitution rate. : 0.000910
+insertion rate. : 0.003417
+deletion rate. : 0.014819
+
+:::: System utilization ::::
+
+CPU time(s) : 0
+Elapsed time(s) : 1
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d100.NC_001486.fna
+data-type : CLR
+depth : 1000.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Viruses/NC_001486.fna
+
+ref.1 (len:3027) : gi|9626719|ref|NC_001486.1| Heron hepatitis B virus, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 1432
+depth : 1000.000000
+read length mean (SD) : 2113.826816 (762.417414)
+read length min : 195
+read length max : 2884
+read accuracy mean (SD) : 0.781822 (0.019607)
+substitution rate. : 0.021835
+insertion rate. : 0.131109
+deletion rate. : 0.093956
+
+:::: System utilization ::::
+
+CPU time(s) : 0
+Elapsed time(s) : 0
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d100.NC_001486.fna
+data-type : CCS
+depth : 400.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Viruses/NC_001486.fna
+
+ref.1 (len:3027) : gi|9626719|ref|NC_001486.1| Heron hepatitis B virus, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 2691
+depth : 400.024777
+read length mean (SD) : 449.972129 (172.374262)
+read length min : 100
+read length max : 1438
+read accuracy mean (SD) : 0.983471 (0.019537)
+substitution rate. : 0.001070
+insertion rate. : 0.003514
+deletion rate. : 0.014694
+
+:::: System utilization ::::
+
+CPU time(s) : 0
+Elapsed time(s) : 1
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d100.NC_008371.fna
+data-type : CLR
+depth : 1000.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Viruses/NC_008371.fna
+
+ref.1 (len:27453) : gi|115315628|ref|NC_008371.1| Lactococcus phage jj50, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 9107
+depth : 1000.000000
+read length mean (SD) : 3014.494345 (2282.200976)
+read length min : 142
+read length max : 24973
+read accuracy mean (SD) : 0.781385 (0.018742)
+substitution rate. : 0.021888
+insertion rate. : 0.131260
+deletion rate. : 0.065922
+
+:::: System utilization ::::
+
+CPU time(s) : 2
+Elapsed time(s) : 2
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d100.NC_008371.fna
+data-type : CCS
+depth : 400.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Viruses/NC_008371.fna
+
+ref.1 (len:27453) : gi|115315628|ref|NC_008371.1| Lactococcus phage jj50, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 24296
+depth : 400.000000
+read length mean (SD) : 451.975634 (171.670228)
+read length min : 105
+read length max : 1701
+read accuracy mean (SD) : 0.983908 (0.019417)
+substitution rate. : 0.000965
+insertion rate. : 0.003363
+deletion rate. : 0.014494
+
+:::: System utilization ::::
+
+CPU time(s) : 0
+Elapsed time(s) : 1
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d100.NC_002685.fna
+data-type : CLR
+depth : 1000.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Viruses/NC_002685.fna
+
+ref.1 (len:31301) : gi|34303903|ref|NC_002685.2| Bovine adenovirus D, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 10342
+depth : 1000.000000
+read length mean (SD) : 3026.590601 (2308.593341)
+read length min : 218
+read length max : 24353
+read accuracy mean (SD) : 0.781233 (0.018714)
+substitution rate. : 0.021931
+insertion rate. : 0.131288
+deletion rate. : 0.065958
+
+:::: System utilization ::::
+
+CPU time(s) : 2
+Elapsed time(s) : 3
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d100.NC_002685.fna
+data-type : CCS
+depth : 400.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Viruses/NC_002685.fna
+
+ref.1 (len:31301) : gi|34303903|ref|NC_002685.2| Bovine adenovirus D, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 27869
+depth : 400.002843
+read length mean (SD) : 449.262227 (169.037941)
+read length min : 100
+read length max : 1925
+read accuracy mean (SD) : 0.983940 (0.019337)
+substitution rate. : 0.000977
+insertion rate. : 0.003384
+deletion rate. : 0.014559
+
+:::: System utilization ::::
+
+CPU time(s) : 1
+Elapsed time(s) : 1
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d100.AC_000191.fna
+data-type : CLR
+depth : 1000.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Viruses/AC_000191.fna
+
+ref.1 (len:34185) : gi|564619457|ref|AC_000191.1| Bovine adenovirus A, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 11266
+depth : 1000.000000
+read length mean (SD) : 3034.351145 (2318.961679)
+read length min : 123
+read length max : 24973
+read accuracy mean (SD) : 0.781505 (0.018637)
+substitution rate. : 0.021891
+insertion rate. : 0.131053
+deletion rate. : 0.065977
+
+:::: System utilization ::::
+
+CPU time(s) : 2
+Elapsed time(s) : 4
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : ccs_model_d100.AC_000191.fna
+data-type : CCS
+depth : 400.000000
+length-mean : 450.000000
+length-sd : 170.000000
+length-min : 100
+length-max : 2500
+accuracy-mean : 0.980000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 6:21:73
+
+:::: Reference stats ::::
+
+file name : /home/playera1/sandbox/classifier_comparison/metagenomic_input/refseqs/Viruses/AC_000191.fna
+
+ref.1 (len:34185) : gi|564619457|ref|AC_000191.1| Bovine adenovirus A, complete genome
+
+:::: Simulation stats (ref.1) ::::
+
+read num. : 30337
+depth : 400.000000
+read length mean (SD) : 450.736724 (170.513757)
+read length min : 110
+read length max : 2089
+read accuracy mean (SD) : 0.984005 (0.019228)
+substitution rate. : 0.000943
+insertion rate. : 0.003341
+deletion rate. : 0.014616
+
+:::: System utilization ::::
+
+CPU time(s) : 1
+Elapsed time(s) : 1
+:::: Simulation parameters :::
+
+Simulated by stochastic model.
+
+prefix : clr_model_d100
+data-type : CLR
+depth : 100.000000
+length-mean : 3000.000000
+length-sd : 2300.000000
+length-min : 100
+length-max : 25000
+accuracy-mean : 0.780000
+accuracy-sd : 0.020000
+accuracy-min : 0.750000
+accuracy-max : 1.000000
+difference-ratio : 10:60:30
+
+:::: Reference stats ::::
+
+file name : ../refseqs/Viruses/NC_001486.fna
+
+ERROR: Cannot open file: ../refseqs/Viruses/NC_001486.fna

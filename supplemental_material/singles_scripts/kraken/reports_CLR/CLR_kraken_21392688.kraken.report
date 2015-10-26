@@ -1,0 +1,26 @@
+ 49.00	490	490	U	0	unclassified
+ 51.00	510	0	-	1	root
+ 51.00	510	0	-	131567	  cellular organisms
+ 51.00	510	0	D	2	    Bacteria
+ 51.00	510	0	P	1239	      Firmicutes
+ 51.00	510	0	C	91061	        Bacilli
+ 51.00	510	0	O	1385	          Bacillales
+ 51.00	510	0	F	186817	            Bacillaceae
+ 51.00	510	0	G	1386	              Bacillus
+ 51.00	510	450	-	86661	                Bacillus cereus group
+  3.40	34	33	S	1392	                  Bacillus anthracis
+  0.10	1	1	-	768494	                    Bacillus anthracis str. H9401
+  1.30	13	5	S	1396	                  Bacillus cereus
+  0.50	5	5	-	572264	                    Bacillus cereus 03BB102
+  0.10	1	1	-	288681	                    Bacillus cereus E33L
+  0.10	1	1	-	405535	                    Bacillus cereus AH820
+  0.10	1	0	-	1179100	                    Bacillus cereus biovar anthracis
+  0.10	1	1	-	637380	                      Bacillus cereus biovar anthracis str. CI
+  1.30	13	5	S	1428	                  Bacillus thuringiensis
+  0.30	3	3	-	1218175	                    Bacillus thuringiensis HD-771
+  0.20	2	0	-	1432	                    Bacillus thuringiensis serovar thuringiensis
+  0.20	2	2	-	1286404	                      Bacillus thuringiensis serovar thuringiensis str. IS5056
+  0.10	1	0	-	29339	                    Bacillus thuringiensis serovar kurstaki
+  0.10	1	1	-	714359	                      Bacillus thuringiensis BMB171
+  0.10	1	1	-	529122	                    Bacillus thuringiensis YBT-1518
+  0.10	1	1	-	1195464	                    Bacillus thuringiensis MC28

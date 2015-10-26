@@ -1,0 +1,41 @@
+  0.00	0	0	U	0	unclassified
+100.00	1000	1	-	1	root
+ 99.90	999	0	-	131567	  cellular organisms
+ 99.90	999	0	D	2	    Bacteria
+ 99.90	999	0	P	1224	      Proteobacteria
+ 99.90	999	0	C	1236	        Gammaproteobacteria
+ 99.90	999	0	O	91347	          Enterobacteriales
+ 99.90	999	49	F	543	            Enterobacteriaceae
+ 94.40	944	0	G	561	              Escherichia
+ 94.40	944	868	S	562	                Escherichia coli
+  5.30	53	53	-	1033813	                  Escherichia coli NA114
+  0.60	6	0	-	861906	                  Escherichia coli O44:H18
+  0.60	6	6	-	216592	                    Escherichia coli 042
+  0.30	3	3	-	439855	                  Escherichia coli SMS-3-5
+  0.30	3	0	-	685037	                  Escherichia coli O83:H1
+  0.30	3	3	-	685038	                    Escherichia coli O83:H1 str. NRG 857C
+  0.20	2	2	-	362663	                  Escherichia coli 536
+  0.20	2	2	-	869729	                  Escherichia coli UM146
+  0.20	2	0	-	1603259	                  Escherichia coli O139:H28
+  0.20	2	2	-	331111	                    Escherichia coli O139:H28 str. E24377A
+  0.10	1	0	-	168927	                  Escherichia coli O111:H-
+  0.10	1	1	-	585396	                    Escherichia coli O111:H- str. 11128
+  0.10	1	0	-	376725	                  Escherichia coli O103:H2
+  0.10	1	1	-	585395	                    Escherichia coli O103:H2 str. 12009
+  0.10	1	1	-	585056	                  Escherichia coli UMN026
+  0.10	1	0	-	1038927	                  Escherichia coli O104:H4
+  0.10	1	1	-	1133853	                    Escherichia coli O104:H4 str. 2009EL-2071
+  0.10	1	1	-	1274814	                  Escherichia coli APEC O78
+  0.30	3	1	G	590	              Salmonella
+  0.20	2	0	S	28901	                Salmonella enterica
+  0.20	2	0	-	59201	                  Salmonella enterica subsp. enterica
+  0.10	1	0	-	90370	                    Salmonella enterica subsp. enterica serovar Typhi
+  0.10	1	1	-	1132507	                      Salmonella enterica subsp. enterica serovar Typhi str. P-stx-12
+  0.10	1	0	-	119912	                    Salmonella enterica subsp. enterica serovar Choleraesuis
+  0.10	1	1	-	321314	                      Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67
+  0.20	2	0	G	620	              Shigella
+  0.20	2	0	S	621	                Shigella boydii
+  0.20	2	2	-	300268	                  Shigella boydii Sb227
+  0.10	1	0	-	191675	              unclassified Enterobacteriaceae
+  0.10	1	0	-	36866	                unclassified Enterobacteriaceae (miscellaneous)
+  0.10	1	1	S	891974	                  Plautia stali symbiont

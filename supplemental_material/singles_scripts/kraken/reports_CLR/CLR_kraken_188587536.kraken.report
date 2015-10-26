@@ -1,0 +1,31 @@
+ 46.10	461	461	U	0	unclassified
+ 53.90	539	0	-	1	root
+ 53.90	539	0	-	131567	  cellular organisms
+ 53.90	539	1	D	2	    Bacteria
+ 53.70	537	0	P	1239	      Firmicutes
+ 53.60	536	0	C	186801	        Clostridia
+ 53.60	536	0	O	186802	          Clostridiales
+ 53.60	536	0	F	31979	            Clostridiaceae
+ 53.60	536	4	G	1485	              Clostridium
+ 53.00	530	64	S	1491	                Clostridium botulinum
+ 45.70	457	0	-	36830	                  Clostridium botulinum E
+ 45.70	457	457	-	508767	                    Clostridium botulinum E3 str. Alaska E43
+  0.90	9	0	-	36827	                  Clostridium botulinum B
+  0.90	9	9	-	935198	                    Clostridium botulinum B str. Eklund 17B (NRP)
+  0.10	1	1	S	1488	                Clostridium acetobutylicum
+  0.10	1	0	S	169679	                Clostridium saccharobutylicum
+  0.10	1	1	-	1345695	                  Clostridium saccharobutylicum DSM 13864
+  0.10	1	0	C	91061	        Bacilli
+  0.10	1	0	O	186826	          Lactobacillales
+  0.10	1	0	F	186828	            Carnobacteriaceae
+  0.10	1	0	G	2747	              Carnobacterium
+  0.10	1	0	S	2751	                Carnobacterium maltaromaticum
+  0.10	1	1	-	1234679	                  Carnobacterium maltaromaticum LMA28
+  0.10	1	0	-	68336	      Bacteroidetes/Chlorobi group
+  0.10	1	0	P	976	        Bacteroidetes
+  0.10	1	0	C	117743	          Flavobacteriia
+  0.10	1	0	O	200644	            Flavobacteriales
+  0.10	1	0	-	313602	              unclassified Flavobacteriales
+  0.10	1	0	G	336809	                Candidatus Sulcia
+  0.10	1	0	S	336810	                  Candidatus Sulcia muelleri
+  0.10	1	1	-	706194	                    Candidatus Sulcia muelleri CARI

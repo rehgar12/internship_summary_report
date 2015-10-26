@@ -1,0 +1,9 @@
+  0.00	0	0	U	0	unclassified
+100.00	1000	0	-	1	root
+100.00	1000	0	D	10239	  Viruses
+100.00	1000	0	-	439488	    ssRNA viruses
+100.00	1000	0	-	35301	      ssRNA negative-strand viruses
+100.00	1000	0	O	11157	        Mononegavirales
+100.00	1000	0	F	11266	          Filoviridae
+100.00	1000	0	G	186536	            Ebolavirus
+100.00	1000	1000	S	186540	              Sudan ebolavirus

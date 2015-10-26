@@ -1,0 +1,11 @@
+  0.00	0	0	U	0	unclassified
+100.00	1000	5	-	1	root
+ 99.50	995	0	-	131567	  cellular organisms
+ 99.50	995	0	D	2	    Bacteria
+ 99.50	995	0	P	1239	      Firmicutes
+ 99.50	995	1	C	91061	        Bacilli
+ 99.40	994	0	O	1385	          Bacillales
+ 99.40	994	0	F	186820	            Listeriaceae
+ 99.40	994	13	G	1637	              Listeria
+ 98.10	981	980	S	1639	                Listeria monocytogenes
+  0.10	1	1	-	882097	                  Listeria monocytogenes SLCC2376

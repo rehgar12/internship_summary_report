@@ -1,0 +1,13 @@
+  0.00	0	0	U	0	unclassified
+100.00	1000	0	-	1	root
+100.00	1000	0	-	131567	  cellular organisms
+100.00	1000	0	D	2	    Bacteria
+100.00	1000	0	P	1224	      Proteobacteria
+100.00	1000	0	C	28216	        Betaproteobacteria
+100.00	1000	0	O	206351	          Neisseriales
+100.00	1000	0	F	481	            Neisseriaceae
+100.00	1000	21	G	482	              Neisseria
+ 97.80	978	555	S	485	                Neisseria gonorrhoeae
+ 42.30	423	423	-	242231	                  Neisseria gonorrhoeae FA 1090
+  0.10	1	0	S	486	                Neisseria lactamica
+  0.10	1	1	-	489653	                  Neisseria lactamica 020-06

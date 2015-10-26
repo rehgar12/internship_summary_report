@@ -1,0 +1,13 @@
+
+odin: 
+                                                                         Req'd  Req'd   Elap
+Job ID               Username Queue    Jobname          SessID NDS   TSK Memory Time  S Time
+-------------------- -------- -------- ---------------- ------ ----- --- ------ ----- - -----
+18201.odin           playera1 day      minikraken_comp_  15774     1  16    --  24:00 R   -- 
+   baldr-2/15+baldr-2/14+baldr-2/13+baldr-2/12+baldr-2/11+baldr-2/10+baldr-2/9
+   +baldr-2/8+baldr-2/7+baldr-2/6+baldr-2/5+baldr-2/4+baldr-2/3+baldr-2/2
+   +baldr-2/1+baldr-2/0
+Written 10000/10000 k-mers to new fileWrote 10000/10000 k-mers to new file  
+Reduced database created, now sorting...
+Sort complete, database is ready.
+25167652 max RSS, 4:24.08 walltime, 1104.82 cpu sec (kernel mode), 966.92 cpu sec (user mode), 784% cpu (S+U)/E, 0 RSS in Kb

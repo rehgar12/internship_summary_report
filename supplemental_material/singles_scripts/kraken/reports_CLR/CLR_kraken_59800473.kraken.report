@@ -1,0 +1,27 @@
+ 48.60	486	486	U	0	unclassified
+ 51.40	514	0	-	1	root
+ 51.40	514	0	-	131567	  cellular organisms
+ 51.40	514	1	D	2	    Bacteria
+ 51.30	513	4	P	1224	      Proteobacteria
+ 50.70	507	0	C	28216	        Betaproteobacteria
+ 50.70	507	0	O	206351	          Neisseriales
+ 50.70	507	0	F	481	            Neisseriaceae
+ 50.70	507	169	G	482	              Neisseria
+ 32.20	322	267	S	485	                Neisseria gonorrhoeae
+  5.10	51	51	-	242231	                  Neisseria gonorrhoeae FA 1090
+  0.40	4	4	-	521006	                  Neisseria gonorrhoeae NCCP11945
+  1.50	15	10	S	487	                Neisseria meningitidis
+  0.20	2	0	-	135720	                  Neisseria meningitidis serogroup C
+  0.20	2	2	-	374833	                    Neisseria meningitidis 053442
+  0.10	1	1	-	935588	                  Neisseria meningitidis M01-240355
+  0.10	1	1	-	935593	                  Neisseria meningitidis M04-240196
+  0.10	1	1	-	942513	                  Neisseria meningitidis WUE 2594
+  0.10	1	0	S	486	                Neisseria lactamica
+  0.10	1	1	-	489653	                  Neisseria lactamica 020-06
+  0.20	2	1	C	1236	        Gammaproteobacteria
+  0.10	1	0	O	72274	          Pseudomonadales
+  0.10	1	0	F	135621	            Pseudomonadaceae
+  0.10	1	0	G	286	              Pseudomonas
+  0.10	1	0	-	136845	                Pseudomonas putida group
+  0.10	1	0	S	303	                  Pseudomonas putida
+  0.10	1	1	-	931281	                    Pseudomonas putida BIRD-1

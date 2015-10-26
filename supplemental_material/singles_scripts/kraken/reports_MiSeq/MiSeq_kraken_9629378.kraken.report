@@ -1,0 +1,33 @@
+ 68.80	688	688	U	0	unclassified
+ 31.20	312	0	-	1	root
+ 30.60	306	0	D	10239	  Viruses
+ 30.60	306	0	-	35237	    dsDNA viruses, no RNA stage
+ 30.60	306	0	O	548681	      Herpesvirales
+ 30.60	306	0	F	10292	        Herpesviridae
+ 30.60	306	2	-	10293	          Alphaherpesvirinae
+ 26.70	267	0	-	35247	            unclassified Alphaherpesvirinae
+ 26.70	267	267	S	332937	              Chimpanzee alpha-1 herpesvirus
+  3.30	33	12	G	10294	            Simplexvirus
+  1.40	14	14	S	10325	              Macacine herpesvirus 1
+  0.30	3	3	S	340907	              Papiine herpesvirus 2
+  0.30	3	0	-	342410	              unclassified Simplexvirus
+  0.30	3	3	S	1343901	                Fruit bat alphaherpesvirus 1
+  0.10	1	1	S	10317	              Cercopithecine herpesvirus 2
+  0.40	4	0	G	10319	            Varicellovirus
+  0.30	3	3	S	35244	              Bovine herpesvirus 5
+  0.10	1	1	S	10345	              Suid herpesvirus 1
+  0.60	6	0	-	131567	  cellular organisms
+  0.60	6	0	D	2	    Bacteria
+  0.40	4	0	P	201174	      Actinobacteria
+  0.40	4	0	C	1760	        Actinobacteria
+  0.30	3	0	O	85011	          Streptomycetales
+  0.30	3	0	F	2062	            Streptomycetaceae
+  0.30	3	0	G	1883	              Streptomyces
+  0.30	3	0	S	379067	                Streptomyces bingchenggensis
+  0.30	3	3	-	749414	                  Streptomyces bingchenggensis BCW-1
+  0.10	1	0	O	85010	          Pseudonocardiales
+  0.10	1	0	F	2070	            Pseudonocardiaceae
+  0.10	1	0	G	40566	              Actinosynnema
+  0.10	1	0	S	40567	                Actinosynnema mirum
+  0.10	1	1	-	446462	                  Actinosynnema mirum DSM 43827
+  0.20	2	2	P	1224	      Proteobacteria

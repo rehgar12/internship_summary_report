@@ -1,0 +1,23 @@
+ 52.80	528	528	U	0	unclassified
+ 47.20	472	0	-	1	root
+ 47.20	472	0	-	131567	  cellular organisms
+ 47.20	472	0	D	2	    Bacteria
+ 47.10	471	0	P	201174	      Actinobacteria
+ 47.10	471	0	C	1760	        Actinobacteria
+ 47.10	471	0	O	85004	          Bifidobacteriales
+ 47.10	471	1	F	31953	            Bifidobacteriaceae
+ 47.00	470	1	G	1678	              Bifidobacterium
+ 46.80	468	89	S	28025	                Bifidobacterium animalis
+ 37.50	375	370	-	302911	                  Bifidobacterium animalis subsp. lactis
+  0.40	4	4	-	552531	                    Bifidobacterium animalis subsp. lactis BB-12
+  0.10	1	1	-	1167629	                    Bifidobacterium animalis subsp. lactis ATCC 27673
+  0.40	4	0	-	302912	                  Bifidobacterium animalis subsp. animalis
+  0.40	4	4	-	703613	                    Bifidobacterium animalis subsp. animalis ATCC 25527
+  0.10	1	1	S	216816	                Bifidobacterium longum
+  0.10	1	0	P	203691	      Spirochaetes
+  0.10	1	0	C	203692	        Spirochaetia
+  0.10	1	0	O	136	          Spirochaetales
+  0.10	1	0	F	137	            Spirochaetaceae
+  0.10	1	0	G	146	              Spirochaeta
+  0.10	1	0	S	154	                Spirochaeta thermophila
+  0.10	1	1	-	869211	                  Spirochaeta thermophila DSM 6578

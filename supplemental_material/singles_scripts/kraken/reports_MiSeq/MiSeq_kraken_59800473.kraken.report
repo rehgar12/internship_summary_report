@@ -1,0 +1,14 @@
+  0.00	0	0	U	0	unclassified
+100.00	1000	0	-	1	root
+100.00	1000	0	-	131567	  cellular organisms
+100.00	1000	0	D	2	    Bacteria
+100.00	1000	0	P	1224	      Proteobacteria
+100.00	1000	0	C	28216	        Betaproteobacteria
+100.00	1000	0	O	206351	          Neisseriales
+100.00	1000	0	F	481	            Neisseriaceae
+100.00	1000	34	G	482	              Neisseria
+ 96.50	965	616	S	485	                Neisseria gonorrhoeae
+ 34.90	349	349	-	242231	                  Neisseria gonorrhoeae FA 1090
+  0.10	1	0	S	487	                Neisseria meningitidis
+  0.10	1	0	-	135720	                  Neisseria meningitidis serogroup C
+  0.10	1	1	-	374833	                    Neisseria meningitidis 053442

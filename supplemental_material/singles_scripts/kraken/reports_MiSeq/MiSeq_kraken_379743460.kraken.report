@@ -1,0 +1,14 @@
+  0.00	0	0	U	0	unclassified
+100.00	1000	0	-	1	root
+100.00	1000	0	-	131567	  cellular organisms
+100.00	1000	0	D	2	    Bacteria
+100.00	1000	0	P	1224	      Proteobacteria
+100.00	1000	0	C	1236	        Gammaproteobacteria
+100.00	1000	0	O	135623	          Vibrionales
+100.00	1000	0	F	641	            Vibrionaceae
+100.00	1000	1	G	662	              Vibrio
+ 99.90	999	900	S	666	                Vibrio cholerae
+  9.30	93	77	-	127906	                  Vibrio cholerae O1
+  1.60	16	16	-	1134456	                    Vibrio cholerae IEC224
+  0.40	4	4	-	935297	                  Vibrio cholerae LMA3984-4
+  0.20	2	2	-	345073	                  Vibrio cholerae O395

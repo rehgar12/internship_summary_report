@@ -1,0 +1,14 @@
+  0.00	0	0	U	0	unclassified
+100.00	1000	1	-	1	root
+ 99.90	999	0	-	131567	  cellular organisms
+ 99.90	999	0	D	2	    Bacteria
+ 99.90	999	0	P	1239	      Firmicutes
+ 99.90	999	0	C	91061	        Bacilli
+ 99.90	999	0	O	186826	          Lactobacillales
+ 99.90	999	0	F	1300	            Streptococcaceae
+ 99.90	999	0	G	1357	              Lactococcus
+ 99.90	999	8	S	1358	                Lactococcus lactis
+ 99.10	991	214	-	1359	                  Lactococcus lactis subsp. cremoris
+ 77.40	774	774	-	1295826	                    Lactococcus lactis subsp. cremoris KW2
+  0.20	2	2	-	1104322	                    Lactococcus lactis subsp. cremoris A76
+  0.10	1	1	-	272622	                    Lactococcus lactis subsp. cremoris SK11

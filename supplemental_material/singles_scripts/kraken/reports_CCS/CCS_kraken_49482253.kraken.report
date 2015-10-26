@@ -1,0 +1,30 @@
+  0.00	0	0	U	0	unclassified
+100.00	1000	36	-	1	root
+ 96.40	964	0	-	131567	  cellular organisms
+ 96.40	964	0	D	2	    Bacteria
+ 96.40	964	0	P	1239	      Firmicutes
+ 96.40	964	1	C	91061	        Bacilli
+ 96.30	963	0	O	1385	          Bacillales
+ 96.30	963	0	F	90964	            Staphylococcaceae
+ 96.30	963	23	G	1279	              Staphylococcus
+ 93.90	939	372	S	1280	                Staphylococcus aureus
+ 56.10	561	452	-	46170	                  Staphylococcus aureus subsp. aureus
+  8.70	87	87	-	282458	                    Staphylococcus aureus subsp. aureus MRSA252
+  0.50	5	0	-	1196216	                    Staphylococcus aureus subsp. aureus ST72
+  0.50	5	5	-	1193576	                      Staphylococcus aureus subsp. aureus CN1
+  0.30	3	3	-	685039	                    Staphylococcus aureus subsp. aureus ED133
+  0.20	2	2	-	548473	                    Staphylococcus aureus subsp. aureus TCH60
+  0.20	2	2	-	869816	                    Staphylococcus aureus subsp. aureus JKD6159
+  0.20	2	2	-	1074252	                    Staphylococcus aureus subsp. aureus HO 5096 0412
+  0.20	2	2	-	1074919	                    Staphylococcus aureus subsp. aureus ST228
+  0.10	1	1	-	426430	                    Staphylococcus aureus subsp. aureus str. Newman
+  0.10	1	1	-	985006	                    Staphylococcus aureus subsp. aureus LGA251
+  0.10	1	1	-	1028799	                    Staphylococcus aureus subsp. aureus VC40
+  0.10	1	1	-	1118959	                    Staphylococcus aureus subsp. aureus M013
+  0.10	1	1	-	1123523	                    Staphylococcus aureus subsp. aureus 11819-97
+  0.10	1	1	-	1392476	                    Staphylococcus aureus subsp. aureus 6850
+  0.30	3	3	-	273036	                  Staphylococcus aureus RF122
+  0.20	2	2	-	1323661	                  Staphylococcus aureus CA-347
+  0.10	1	1	-	1229492	                  Staphylococcus aureus 08BA02176
+  0.10	1	0	S	28035	                Staphylococcus lugdunensis
+  0.10	1	1	-	1034809	                  Staphylococcus lugdunensis N920143

@@ -1,0 +1,46 @@
+ 50.60	506	506	U	0	unclassified
+ 49.40	494	5	-	1	root
+ 48.90	489	0	-	131567	  cellular organisms
+ 48.90	489	0	D	2	    Bacteria
+ 48.90	489	0	P	1224	      Proteobacteria
+ 48.80	488	0	C	1236	        Gammaproteobacteria
+ 48.80	488	0	O	91347	          Enterobacteriales
+ 48.80	488	166	F	543	            Enterobacteriaceae
+ 30.90	309	0	G	561	              Escherichia
+ 30.90	309	288	S	562	                Escherichia coli
+  1.00	10	10	-	1033813	                  Escherichia coli NA114
+  0.40	4	0	-	861906	                  Escherichia coli O44:H18
+  0.40	4	4	-	216592	                    Escherichia coli 042
+  0.20	2	2	-	362663	                  Escherichia coli 536
+  0.20	2	2	-	1274814	                  Escherichia coli APEC O78
+  0.10	1	1	-	409438	                  Escherichia coli SE11
+  0.10	1	1	-	439855	                  Escherichia coli SMS-3-5
+  0.10	1	1	-	585056	                  Escherichia coli UMN026
+  0.50	5	0	G	620	              Shigella
+  0.30	3	3	S	623	                Shigella flexneri
+  0.10	1	0	S	622	                Shigella dysenteriae
+  0.10	1	1	-	300267	                  Shigella dysenteriae Sd197
+  0.10	1	0	S	624	                Shigella sonnei
+  0.10	1	1	-	216599	                  Shigella sonnei 53G
+  0.30	3	1	G	547	              Enterobacter
+  0.10	1	0	S	548	                Enterobacter aerogenes
+  0.10	1	1	-	935296	                  Enterobacter aerogenes EA1509E
+  0.10	1	0	-	354276	                Enterobacter cloacae complex
+  0.10	1	0	S	1334193	                  Enterobacter lignolyticus
+  0.10	1	1	-	701347	                    Enterobacter lignolyticus SCF1
+  0.20	2	0	G	53335	              Pantoea
+  0.20	2	2	S	553	                Pantoea ananatis
+  0.10	1	0	G	629	              Yersinia
+  0.10	1	0	S	630	                Yersinia enterocolitica
+  0.10	1	0	-	150052	                  Yersinia enterocolitica subsp. enterocolitica
+  0.10	1	1	-	393305	                    Yersinia enterocolitica subsp. enterocolitica 8081
+  0.10	1	1	G	122277	              Pectobacterium
+  0.10	1	0	-	191675	              unclassified Enterobacteriaceae
+  0.10	1	0	-	36866	                unclassified Enterobacteriaceae (miscellaneous)
+  0.10	1	1	S	693444	                  Enterobacteriaceae bacterium strain FGI 57
+  0.10	1	0	C	28211	        Alphaproteobacteria
+  0.10	1	0	O	356	          Rhizobiales
+  0.10	1	0	F	69277	            Phyllobacteriaceae
+  0.10	1	0	G	68287	              Mesorhizobium
+  0.10	1	0	S	536018	                Mesorhizobium australicum
+  0.10	1	1	-	754035	                  Mesorhizobium australicum WSM2073

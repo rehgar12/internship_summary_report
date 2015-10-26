@@ -1,0 +1,38 @@
+ 47.50	475	475	U	0	unclassified
+ 52.50	525	0	-	1	root
+ 52.50	525	0	-	131567	  cellular organisms
+ 52.50	525	0	D	2	    Bacteria
+ 52.40	524	0	P	1239	      Firmicutes
+ 52.40	524	0	C	91061	        Bacilli
+ 52.40	524	0	O	1385	          Bacillales
+ 52.40	524	0	F	186817	            Bacillaceae
+ 52.40	524	1	G	1386	              Bacillus
+ 52.20	522	410	-	86661	                Bacillus cereus group
+  7.90	79	78	S	1392	                  Bacillus anthracis
+  0.10	1	1	-	198094	                    Bacillus anthracis str. Ames
+  1.70	17	6	S	1396	                  Bacillus cereus
+  0.30	3	3	-	361100	                    Bacillus cereus Q1
+  0.20	2	2	-	405535	                    Bacillus cereus AH820
+  0.20	2	2	-	572264	                    Bacillus cereus 03BB102
+  0.20	2	0	-	1179100	                    Bacillus cereus biovar anthracis
+  0.20	2	2	-	637380	                      Bacillus cereus biovar anthracis str. CI
+  0.10	1	1	-	288681	                    Bacillus cereus E33L
+  0.10	1	1	-	405531	                    Bacillus cereus G9842
+  1.20	12	0	S	1428	                  Bacillus thuringiensis
+  0.50	5	0	-	29337	                    Bacillus thuringiensis serovar finitimus
+  0.50	5	5	-	930170	                      Bacillus thuringiensis serovar finitimus YBT-020
+  0.20	2	0	-	29339	                    Bacillus thuringiensis serovar kurstaki
+  0.10	1	1	-	714359	                      Bacillus thuringiensis BMB171
+  0.10	1	1	-	1279365	                      Bacillus thuringiensis serovar kurstaki str. HD73
+  0.20	2	0	-	180856	                    Bacillus thuringiensis serovar konkukian
+  0.20	2	2	-	281309	                      Bacillus thuringiensis serovar konkukian str. 97-27
+  0.20	2	2	-	1195464	                    Bacillus thuringiensis MC28
+  0.10	1	1	-	1218175	                    Bacillus thuringiensis HD-771
+  0.30	3	0	S	86662	                  Bacillus weihenstephanensis
+  0.30	3	3	-	315730	                    Bacillus weihenstephanensis KBAB4
+  0.10	1	0	S	580165	                  Bacillus cytotoxicus
+  0.10	1	1	-	315749	                    Bacillus cytotoxicus NVH 391-98
+  0.10	1	0	-	653685	                Bacillus subtilis group
+  0.10	1	1	S	1423	                  Bacillus subtilis
+  0.10	1	0	-	68336	      Bacteroidetes/Chlorobi group
+  0.10	1	1	P	976	        Bacteroidetes

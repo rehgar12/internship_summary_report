@@ -1,0 +1,20 @@
+ 51.70	517	517	U	0	unclassified
+ 48.30	483	0	-	1	root
+ 48.30	483	0	-	131567	  cellular organisms
+ 48.30	483	0	D	2	    Bacteria
+ 48.30	483	0	P	1224	      Proteobacteria
+ 48.20	482	1	C	1236	        Gammaproteobacteria
+ 48.10	481	0	O	135623	          Vibrionales
+ 48.10	481	0	F	641	            Vibrionaceae
+ 48.10	481	4	G	662	              Vibrio
+ 47.70	477	450	S	666	                Vibrio cholerae
+  1.90	19	19	-	127906	                  Vibrio cholerae O1
+  0.60	6	6	-	935297	                  Vibrio cholerae LMA3984-4
+  0.10	1	1	-	345073	                  Vibrio cholerae O395
+  0.10	1	1	-	579112	                  Vibrio cholerae M66-2
+  0.10	1	0	C	28216	        Betaproteobacteria
+  0.10	1	0	O	80840	          Burkholderiales
+  0.10	1	0	F	506	            Alcaligenaceae
+  0.10	1	0	G	222	              Achromobacter
+  0.10	1	0	S	85698	                Achromobacter xylosoxidans
+  0.10	1	1	-	1167634	                  Achromobacter xylosoxidans NH44784-1996

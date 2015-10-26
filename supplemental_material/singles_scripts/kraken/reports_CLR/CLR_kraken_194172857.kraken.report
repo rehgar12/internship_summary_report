@@ -1,0 +1,39 @@
+ 47.70	477	477	U	0	unclassified
+ 52.30	523	0	-	1	root
+ 52.30	523	0	-	131567	  cellular organisms
+ 52.30	523	0	D	2	    Bacteria
+ 52.30	523	0	P	1239	      Firmicutes
+ 52.20	522	0	C	91061	        Bacilli
+ 52.20	522	0	O	186826	          Lactobacillales
+ 52.20	522	0	F	1300	            Streptococcaceae
+ 52.20	522	130	G	1301	              Streptococcus
+ 38.10	381	343	S	1313	                Streptococcus pneumoniae
+  2.30	23	23	-	170187	                  Streptococcus pneumoniae TIGR4
+  0.20	2	2	-	189423	                  Streptococcus pneumoniae 670-6B
+  0.20	2	2	-	487214	                  Streptococcus pneumoniae Hungary19A-6
+  0.20	2	2	-	512566	                  Streptococcus pneumoniae G54
+  0.20	2	2	-	574093	                  Streptococcus pneumoniae AP200
+  0.20	2	2	-	869304	                  Streptococcus pneumoniae SPN034183
+  0.20	2	2	-	869309	                  Streptococcus pneumoniae SPNA45
+  0.10	1	1	-	171101	                  Streptococcus pneumoniae R6
+  0.10	1	1	-	516950	                  Streptococcus pneumoniae CGSP14
+  0.10	1	1	-	869269	                  Streptococcus pneumoniae INV104
+  0.60	6	0	S	257758	                Streptococcus pseudopneumoniae
+  0.60	6	6	-	1054460	                  Streptococcus pseudopneumoniae IS7493
+  0.10	1	0	S	1303	                Streptococcus oralis
+  0.10	1	1	-	927666	                  Streptococcus oralis Uo5
+  0.10	1	1	S	1307	                Streptococcus suis
+  0.10	1	0	S	28037	                Streptococcus mitis
+  0.10	1	1	-	365659	                  Streptococcus mitis B6
+  0.10	1	0	S	102684	                Streptococcus infantarius
+  0.10	1	0	-	150054	                  Streptococcus infantarius subsp. infantarius
+  0.10	1	1	-	1069533	                    Streptococcus infantarius subsp. infantarius CJ18
+  0.10	1	0	-	671232	                Streptococcus anginosus group
+  0.10	1	0	S	1328	                  Streptococcus anginosus
+  0.10	1	1	-	862971	                    Streptococcus anginosus C238
+  0.10	1	0	C	186801	        Clostridia
+  0.10	1	0	O	186802	          Clostridiales
+  0.10	1	0	F	186807	            Peptococcaceae
+  0.10	1	0	G	1562	              Desulfotomaculum
+  0.10	1	0	S	327817	                Desulfotomaculum carboxydivorans
+  0.10	1	1	-	868595	                  Desulfotomaculum carboxydivorans CO-1-SRB

@@ -1,0 +1,121 @@
+Generation of metagenomic input test data
+Reference genome information can be found in 'classifier_comp_TOOLS.ods'.
+All organisms chosen for generation of metagenomic test data has a reference genome in the 
+customized databases built for each tool.
+____________________________________________________________________________________________________
+ARTsimulator
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3278762/
+1.	simulate illumina MiSeq reads (250bp) for each ref genome (26). See PARAMETERS (below)
+	or qsub script for parameters).
+qsub ART_run.sh
+
+PARAMETERS:
+ART  (Illumina)
+MiSeq
+BACTERIA
+art_illumina -i $refseq -l 250 -f 10 -o $out_path
+VIRUSES
+art_illumina -i $refseq -l 250 -f 100 -o $out_path
+
+
+2.	copy first 1,000 reads (4,000 lines) from each simulated *.fq to generate a 
+	single metagenomic fastq file.
+bash making_meta_illumina_fastq.sh
+
+3.	Use resulting file 'MiSeq_meta_sim.fq' as input to classifiers.
+	(contains 1000 reads/4000 lines per organism, wc -l should return 104000).
+____________________________________________________________________________________________________
+PBsim
+https://code.google.com/p/pbsim/wiki/MainPage
+1.	simulate PacBio reads (depth of coverage, enough to get 1000 reads per organism 
+	(see PARAMETERS (below) or qsub script for parameters).
+	This sciprt generates both CLR and CCS reads.
+qsub PBsim_run.sh
+
+PARAMETERS:
+Pbsim (PacBio)
+CLR
+BACTERIA
+pbsim --data-type CLR --depth 40 --model_qc "$model_path/model_qc_clr" "$fasta" --prefix "clr_model_d5.$base"
+VIRUSES
+pbsim --data-type CLR --depth 1000 --model_qc "$model_path/model_qc_clr" "$fasta" --prefix "clr_model_d100.$base"
+CCS
+BACTERIA
+pbsim --data-type CCS --depth 5 --model_qc "$model_path/model_qc_ccs" "$fasta" --prefix "ccs_model_d5.$base"
+VIRUSES
+pbsim --data-type CCS --depth 400 --model_qc "$model_path/model_qc_ccs" "$fasta" --prefix "ccs_model_d100.$base"
+
+
+2.	split out .fastq files
+mkdir fastq
+mv *.fastq fastq/
+
+3. separate 0001 reads from everything else
+cd fastq
+mkdir 0001 everything_else
+mv *0001* 0001/
+mv * everything_else/
+
+4.	take off the first 4000 lines of each file (reducing to 1000 reads per organism)
+bash reduce_to_1000.sh
+
+5.	this makes a new directory 'head0001', make a directory for CLR and CCS reads, and 
+	separate accordingly
+cd head0001
+mkdir CLR CCS
+mv clr* CLR/
+mv ccs* CCS/
+
+6.	move bash scripts (pbsim_CLR_replace_head.sh and pbsim_CCS_replace_head.sh) into 
+	your working directory (head0001). Locate list of NC_accession_numbers and gi file 
+	(NC_gi_list.tsv).
+
+7.	run each script to replace the headers in each of the simulated fastq files
+	containing 1000 reads each.
+bash pbsim_CLR_replace_head.sh <path>/NC_gi_list.tsv
+bash pbsim_CCS_replace_head.sh <path>/NC_gi_list.tsv
+
+8.	Step 7 will make 2 new directories, one in CLR/, the other in CCS/, both called
+	'processed_headers'. These contain the simulated reads (one file per organism)
+	that will go into your metagenomic fastq (one fastq for CLR, one for CCS).
+	From the same working directory in Step 6 (head0001), run the script:
+bash making_meta_PB_fastq.sh
+
+9.	Each contains 1000 reads/4000 lines per organism, wc -l should return 104000.
+____________________________________________________________________________________________________
+convert fastq to fasta for use as input into classifiers
+http://hannonlab.cshl.edu/fastx_toolkit/
+1.	converting fastqs to fastas
+FASTQ_TO_FASTA.sh
+
+2.	Using following files as input to classifiers (using fastq for pathoscope):
+MiSeq_meta_sim.fa
+PacBio_CCS_meta_sim.fa
+PacBio_CLR_meta_sim.fa
+____________________________________________________________________________________________________
+AVERAGE READ LENGTHS (bp)
+MiSeq	-	read_total=$(awk 'NR % 2 == 0' MiSeq_meta_sim.fa | wc -c); bc -l <<< "$read_total/26000"		251
+CLR		-	read_total=$(awk 'NR % 2 == 0' PacBio_CLR_meta_sim.fa | wc -c); bc -l <<< "$read_total/26000"	2829
+CCS		-	read_total=$(awk 'NR % 2 == 0' PacBio_CCS_meta_sim.fa | wc -c); bc -l <<< "$read_total/26000"	451
+
+
+____________________________________________________________________________________________________
+FASTQC REPORTS
+fastqc -f fastq MiSeq_meta_sim.fastq -o MiSeq_meta_sim-report
+fastqc -f fastq PacBio_CLR_meta_sim.fastq -o PacBio_CLR_meta_sim-report
+fastqc -f fastq PacBio_CCS_meta_sim.fastq -o PacBio_CCS_meta_sim-report
+
+____________________________________________________________________________________________________
+REFERENCE GENOME BP COUNTS
+bash refseq_bp_counter.sh <NC_refseq.ffn>
+
+
+
+
+
+
+
+
+
+
+

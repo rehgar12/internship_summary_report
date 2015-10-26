@@ -1,0 +1,19 @@
+
+odin: 
+                                                                         Req'd  Req'd   Elap
+Job ID               Username Queue    Jobname          SessID NDS   TSK Memory Time  S Time
+-------------------- -------- -------- ---------------- ------ ----- --- ------ ----- - -----
+18234.odin           playera1 day      patho_comp_filte  18545     1  16    --  240:0 R   -- 
+   baldr-2/15+baldr-2/14+baldr-2/13+baldr-2/12+baldr-2/11+baldr-2/10+baldr-2/9
+   +baldr-2/8+baldr-2/7+baldr-2/6+baldr-2/5+baldr-2/4+baldr-2/3+baldr-2/2
+   +baldr-2/1+baldr-2/0
+Running without mySQLdb library
+find max gi...
+done!
+converting gi to taxon_id...
+843805746
+done!
+selecting some reference genome sequences in [/home/playera1/sandbox/classifier_comparison/pathoscope/GRCh38.fa]...
+check ./patho_comp_filter-lib-build_ti.fa
+done.
+19284552 max RSS, 11:44.62 walltime, 36.82 cpu sec (kernel mode), 661.37 cpu sec (user mode), 99% cpu (S+U)/E, 0 RSS in Kb

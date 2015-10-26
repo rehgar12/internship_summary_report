@@ -1,0 +1,31 @@
+Creating the standardized custom databases for each tool
+___________________________________________________________________
+KRAKEN:
+http://ccb.jhu.edu/software/kraken/MANUAL.html
+1.	install taxonomy from NCBI taxonomy:
+	qsub kraken_comp_db-build_taxonomy.sh
+
+2.	adding reference genomes to the database (downloaded from NCBI ftp; see comparison_doc1.txt)
+	qsub kraken_comp_db-build_addinglibraries.sh
+
+3.	build the database (requires as much memory as the disk space used by all reference genomes)
+	qsub kraken_comp_db-build_build.sh
+___________________________________________________________________
+BLASTn
+http://www.ncbi.nlm.nih.gov/books/NBK279688/
+1.	concatenate all Bacteria and Virus .fna files into single file (all_BV.fa), then run makeblastdb
+	qsub fasta_cat_makeblastdb.sh
+___________________________________________________________________
+PATHOSCOPE
+1.	Make target_library. 
+	a.	Copy all_BV.fa used for BLASTn database build into working directory
+	b.	run batch script.
+		qsub patho_comp_target-lib-build.sh
+2.	Make filter_library:
+	a.	Copy all hs_ref_GRCh38 chromosome reference .fa files to a directory,
+	b.	Concatenate fasta files
+		find "fastas/" -name "*.fa" | while read x;do cat $x >> GRCh38.fa;done
+	c. 	run batch script
+		qsub patho_comp_filter-lib-build.sh
+
+
