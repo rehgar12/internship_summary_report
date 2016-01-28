@@ -1,0 +1,226 @@
+Internship Summary Report
+May 18, 2015 to July 31, 2015
+Developing a Testing Pipeline for Metagenomic Classification Tools
+
+Robert A. Player
+Professional Science Master’s Candidate
+
+Department of Bioinformatics and Genomics
+College of Computing and Informatics
+University of North Carolina at Charlotte
+9201 University City Blvd.
+Charlotte, NC 28223-0001
+
+Abstract
+    The classification of metagenomic samples is a relatively new problem made possible by the ever-increasing 
+efficiency and ever-reducing costs of sequencing technologies. No matter the rate or accuracy of these new 
+technologies, they are still bound by the limits of the algorithms used to process and analyze their output. 
+It is for this reason that evaluating the tools based on these algorithms has been identified as an important 
+undertaking by the teams developing them and by their users. The work described in this report is the framework 
+of a pipeline for an unbiased evaluation of metagenomic classification tools. In particular we interrogate 
+blastn, Kraken, and Pathoscope 2.0, focused on three sequencer output types: Illumina MiSeq, PacBio CLR 
+(continuous long read), and PacBio CCS (circularized consensus sequence). Pathoscope 2.0 achieved the highest 
+overall classification accuracy but also had the highest false negative rate and required the most memory during 
+the classification process. Kraken was far and above the fastest of the three but suffered the highest false 
+positive rate and memory requirement for building its reference database. Lastly, blastn was best suited for 
+handling the CLR type reads as compared to the other tools and had the lowest false negative rate. 
+
+Introduction
+    Metagenomics is described as the study of un-isolated genomic sequences of samples taken from an environment 
+[1]. The ability to accurately classify each of these sequences down to strain level resolution holds great 
+potential for qualification and quantification of microhabitats [2] as well as powerful medical diagnostics 
+[3]. The software used to process this sequence data is every bit as important as the technologies used in 
+obtaining it, and both must be rigorously tested for the above potentials to be realised. Although recently 
+published classification tools do include comparisons, it may be reasonably assumed that the parameters used 
+are biased toward those which the new tools perform best at. Therefore, there is a need to compare these 
+tools across a broad range of parameters with explicitly defined statistical variables and functions used 
+for evaluation. Presented here is such an evaluation within a testing pipeline workflow for three 
+classification tools; the most widely used algorithm for sequence alignment [4], BLAST, and two recently 
+published tools, Pathoscope 2.0 and Kraken.
+    The BLAST algorithm is not a metagenomic classification tool by definition, however it may be used in a 
+manner that suits this need. Chosen because of its widespread use as the sequence alignment algorithm employed 
+by biologists for decades, its heuristic approach sacrifices accuracy for speed in an attempt to identify 
+biologically significant sequence homologies. The algorithm is based on three main steps; compiling a list of 
+high-scoring words, scanning the reference database for hits, then extending these hits [8]. For each extended 
+hit a score is generated based on the probability that the alignment could happen by random chance, called the 
+expected score or E-value. This value along with a bit-score are reported for each alignment hit made by the 
+algorithm, and it may be said that the highest scoring hit with the lowest E-value is the classification of 
+the queried sequence.
+    Pathoscope 2.0 is described by its authors as “a complete bioinformatics framework for rapidly and 
+accurately quantifying the proportions of reads from individual microbial strains present in metagenomic 
+sequencing data from environmental or clinical samples” [5]. This tool consists of four primary analysis 
+modules for a complete classification. First, PathoLib builds a reference library file from either provided 
+taxonomic IDs or a customized group of reference genome files. If a taxID is provided, all the reference genomes 
+from that taxID and below are concatenated into a single reference file making this module in particular an 
+interesting and potentially useful standalone tool. The user may also generate a filter library which may be used 
+in the next step, PathoMap. PathoMap is a bowtie 2 wrapper that aligns your query reads to the reference library 
+and filter library if provided, keeping the aligned reads whose alignment score to the reference is greater than 
+that of the alignment score to the filter. These alignments are then input to PathoID which will reassign any 
+ambiguous reads to their most likely source (used in their previous version, Pathoscope 1.0 [6]), then identify 
+and estimate the proportions of reads from each genome. Last, PathoReport provides a detailed summary of the 
+results in an easily parsable format. This workflow is highly customizable due to its modular nature, even the 
+alignment tool used in PathoMap may be replaced per user preference. However, like blastn, Pathoscope 2.0 lacks 
+taxonomically accessible output, reporting only the classification of reads at the lowest taxonomic level. As 
+described next, Kraken breaks down the assignment of each read in a queried file across the entire taxonomic 
+hierarchy.
+    Kraken is presented by its authors as “an ultrafast and highly accurate program for assigning taxonomic labels 
+to metagenomic DNA sequences” [1]. They achieve this ultrafast designation by shifting the computational 
+workload to the generation of a pre-computed database. The reference genomes used are broken into every 
+distinct k-mer (31-mer by default) using the Jellyfish multithreaded k-mer counter [7]. Kraken then processes 
+each genomic sequence in the library, storing the taxonomic ID numbers (obtained from the NCBI taxonomy 
+database) of each k-mer’s LCA (lowest common ancestor) values in place of where Jellyfish stores each k-mer’s 
+count. Additional database processing involving minimizers among k-mers and lexicographical ordering results in 
+extremely efficient lookup of exact matches of k-mers derived from a query sequence. Kraken classifies each 
+sequence by mapping each k-mer of that sequence to the LCA of the genomes that contain that k-mer in the 
+pre-computed database. Each mapped k-mer at a particular node along the taxonomic tree gives weight to that 
+node, and the sequence is classified as the leaf of the highest weighted root-to-leaf path of the resulting tree 
+[1, Figure 1.]. Finally, running KrakenReport will output the number of reads classified at and below a particular 
+taxonomic level as well as the number of reads directly assigned to each taxonomic level. This allows for 
+relatively easy comparison among taxonomic levels which will be described in more detail in the Methods section 
+and in the supplemental material document getting_higher_tax_stats_doc.txt.
+
+Methods
+(Computer hardware specifications in supplemental material)
+Building Reference Databases
+    In order to fairly compare metagenomic classifiers it is imperative that the same reference genomes for the 
+creation of each respective database be identical. The references used to build the custom database for each 
+tool were downloaded from ftp://ftp.ncbi.nih.gov/genomes/, NCBI’s index of genomes in June 2015. This included 
+all of the bacteria and virus genomes available at the time; 2786 and 4401, respectively. For a detailed account 
+of the commands used to execute downloads and torque submissions for each tool’s database build please see 
+supplemental materials doc1 and doc2.
+Simulated Metagenomic Input
+    It was decided that simulated sequences would be, at least initially, the most efficient way to compare the 
+speed and accuracy of the classifiers because of the convenience of tracking each read after classification was 
+complete. Three groups of organisms were chosen to represent a variety of classification difficulty: 11 divergent 
+bacteria differing at at least the family level, 9 divergent viruses differing at at least the genus level, and 6 
+near-neighbor bacteria which are all strains of B. anthracis. All of these organisms are represented by a reference 
+genome in the custom databases.
+    Three sequence types were chosen to be simulated: Illumina MiSeq, PacBio CLR (Continuous Long Read), and PacBio 
+CCS (Circular Consensus Sequence). Each simulator uses a machine specific error model to assign quality scores, SNPs, 
+and indels to the sequences pulled from the reference genome of each organism. ARTsimulator was used to simulate 250bp 
+(basepair) MiSeq reads [9]. PBSIM was used to simulate both the CLR (avg 2829bp) and CCS (avg 450bp) reads [10]. The 
+parameters used for these tools may be found in the supplemental material doc3. From these simulations, a metagenomic 
+sample file was created by extracting and concatenating the first 1000 reads simulated for each organism into a single 
+fastq as input for Pathoscope 2.0, and converted to fasta as input for Kraken and blastn. The distribution of these 
+simulated reads was examined in the Integrative Genomics Viewer [11, 12] to ensure relatively even coverage. The only 
+problem here was with the CLR reads, as they could not be aligned with bwa mem. These files may be viewed in the 
+supplemental material directory analysis_of_input_IGV.
+Classification
+    Initially, the single metagenomic sample file for each read type was used as the input for each classifier, and 
+statistics generated based on the prior knowledge of there being only 1000 reads for each organism. The fact that reads 
+from another organism could be mistakenly classified as the same taxID as another was not taken into account. This was 
+not a problem for Kraken or blastn, as their output could be parsed in a manner that addresses this issue, however, for 
+Pathoscope 2.0 there was no way to trace each read from the input file to that read’s specific classification because the 
+headers of each read are not kept as part of its output report. This problem for Pathoscope was remedied by making a 
+separate file for each organism so the GI number for each input organism could be associated with its respective output 
+file. Though this is technically not a metagenomic sample because all reads of the same type should be mixed in the same 
+file and processed during the same run, there is no other way to trace accuracies per organism with this tool. This may 
+be grounds for disqualifying this tool for comparison, however it was decided to move forward with this fix. The details 
+of this fix may be inspected in the supplemental material singles_comparison_doc.txt. The rest of this document details 
+the scripts used to generate the statistics for only the lowest taxonomic level for blastn and Pathoscope. Because the 
+output of kraken is so taxonomically accessible, scripts were written to account for higher taxonomic levels at this time. 
+We later expanded this analysis up to the family level for all tools, as detailed in getting_higher_tax_stats_doc.txt.
+    The classification output from Kraken and blastn could be parsed based on the headers carried over from the fasta file 
+as part of the output per read, so it was not necessary to run a complete re-classification for these tools. For Kraken 
+this initial output was parsed for each organism, then a report generated per organism was parsed and analyzed. Similarly, 
+the b6 formatted output of blastn was parsed and analyzed for each organism. Details of classification including the 
+parameters used for each tool can be found in supplemental material doc4.
+Generation of Statistics
+    To gage the speed of each classification tool, they were run four times consecutively. The last three runs were then 
+used to calculate the average walltime for the run, as well as the average maximum RSS (Resident Set Size). The total 
+number of reads classified was divided by the average walltime for each tool to get a reads per minute value. RSS is 
+the amount of memory used by a particular process, so the max RSS is a measure of the most memory consumed at a single 
+point during the classification process. To measure both of these values the Unix tool /usr/bin/time was inserted into 
+each PBS script just before executing the classification, the output of which was stored in the log files for each run. 
+Please see supplemental material doc4 for parameters, and doc4scripts log files for the output for each run of each 
+tool if interested (also, see Figures 1 and 2 in Results section for a summary of this data).
+    The accuracy for each tool is defined for each organism as the sum of true positives and true negatives divided by 
+the sum of all positives and negatives. To break this down further, the definitions of each are explicitly stated below:
+True Positive
+TP
+The total number of reads from an organism’s taxid that were classified as that taxid.
+False Positive
+FP
+The total number of reads from an organism’s taxid that were classified as another taxid.
+True Negative
+TN
+This value is set to 0 because all reads from an organism should be classified, if not they will be counted as a FN.
+False Negative
+FN
+The total number of reads from an organism’s taxid that were left unclassified.
+Accuracy
+
+
+(TP+TN)/(TP+FP+TN+FN)
+Table 1. Statistical variable definitions.
+Each of these definitions were then applied to the classification of the reads of each read type for each organism by each tool for the family, genus, species, and strain (norank) taxonomic levels.
+
+Results
+(raw data in supplemental material file data.xlxs)
+    It is clear from Figure 1 that Kraken has earned its ultrafast designation, classifying over an order of magnitude 
+more reads per minute than either Pathoscope 2.0 or blastn. That is not to say the other tools are slow, but Kraken 
+has them beat hands down. All tools perform slowest with the CLR read type, certainly due to its significantly longer 
+read length. As for memory consumption, with the exception of the CLR type read, Figure 2 shows all tools performing 
+their classification utilizing well under 10 Gb of RAM. The increased memory requirement for classifying the CLR read 
+type is also likely due to its longer length. For Kraken, the number of k-mers that must be analyzed are proportionally 
+increased, the storage of which consumes more memory. The bowtie2 wrapper used by Pathoscope’s PathoMap will also 
+require much more memory while attempting to align the longer CLR reads (failing in most cases), causing the tool to 
+eat up close to 120 Gb of memory at one point during classification. It is important to note here that Kraken requires 
+more memory for the database building step as compared to blastn or Pathoscope. This is less of a problem than memory 
+usage during classification because the database could be pre-built on a cluster, and transferred to a more portable 
+machine.
+    The accuracy of each tool was calculated for each of the three read types and for each organism at the family, 
+genus, species, and strain (no rank) taxonomic levels, the average of which is shown in Figure 3. At each step down 
+to a more specific taxonomic level the accuracies across all parameters on average are invariably reduced. Each tool 
+shows this trend of reduction. In the divergent bacteria group Kraken and blastn have a similar accuracy profile for 
+all read types, but Pathoscope is unable to accurately classify more than a few CLR reads of the 26,000 available. 
+This is almost certainly due to the fact that PathoMap, being a bowtie2 wrapper, is unable to align these longer reads 
+of significantly lower base call quality. However, Pathoscope is able to classify the other two read types more 
+accurately than Kraken or blastn for this and the near-neighbor bacteria groups. Kraken classifies the reads in the 
+near-neighbor group least accurately at and below the species level. This drop in accuracy from genus to species is 
+particularly noteworthy because this trend is not seen in the other tools. In the virus group, all tools have very 
+high accuracies with the MiSeq and CCS reads. This marked difference from the other 2 groups may be due to the 
+comparatively smaller size of the average virus genome. Perhaps reducing the base space does not leave much room for 
+regions of repeats or non-functional DNA, resulting in a higher density of strain identifying sequences.
+    Figure 4 gives us a more raw look at the performance of each tool. Summing all read types across all taxonomic 
+levels (top of Figure 4) indicates blastn as the clear classification leader of this study, having the highest 
+true positive rate and lowest false negative rate. In this view, the relatively high false negative rate of 
+Pathoscope 2.0 is somewhat misleading.
+    Looking back at Figure 3, Pathoscope classified no more than a handful of the CLR type reads even at the highest 
+taxonomic level examined. If we ignore this read type for all tools (bottom of Figure 4) Pathoscope 2.0 takes 
+the place of blastn as the leading classification tool. This is an important distinction to make because the 
+base call quality of the CLR reads is far too low (at the moment) for real world application in any classification 
+tool.
+
+Conclusions
+    This study successfully outlines and implements a pipeline for the comparison of metagenomic classification tools. 
+Although problems, such as tracking each read through the classification process of Pathoscope 2.0 and how exactly 
+a single best hit is reported if multiple returned alignments have an identical bit-score and E-value for the b6 
+output format of blastn, exist within this particular implementation, a framework has been set that may be built 
+upon and modified. The detailed comparison of the defined statistical variables from Table 1 across a broad range 
+of taxonomic levels results in a robust evaluation of a given classification tool. There is much work left to be 
+done on this project and we plan to pursue refinements of the statistical variable definitions, work towards a 
+significantly automated version of the pipeline, and the utilization of real genomic sequence data.
+
+Acknowledgements
+    I would like to thank my mentor at UNC Charlotte, Dr. Jennifer Weller, for her networking with my supervisor at 
+Johns Hopkins Applied Physics Lab, Dr. Christopher Bradburne, who made this opportunity a reality for me. Also, Ben 
+Baugher and Dave Karig for budgetary support from their IRAD and MURI projects, respectively. Tom Mehoke for his time, 
+patience, and training. Ron Jacak for helping troubleshoot the cluster, and Brant Chee for general Q&A throughout 
+this formative internship experience.
+
+Supplemental Material https://github.com/rehgar12/internship_summary_report/tree/master/supplemental_material
+
+References
+Wood, Derrick, and Steven Salzberg. "Kraken: Ultrafast Metagenomic Sequence Classification Using Exact Alignments." Genome Biology. 3 Mar. 2014. Web. 18 Oct. 2015. <http://www.genomebiology.com/2014/15/3/R46>.
+Oh, Julia. "Biogeography and Individuality Shape Function in the Human Skin Metagenome." Nature, 1 Oct. 2014. Web. 18 Oct. 2015. <http://www.nature.com/nature/journal/v514/n7520/full/nature13786.html>.
+Pallen, M. "Diagnostic Metagenomics: Potential Applications to Bacterial, Viral and Parasitic Infections." Ed. Russell Stothard. Cambridge University Press, 27 Feb. 2014. Web. 18 Oct. 2015. <http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4255322/>.
+Casey, Richard. "BLAST Sequences Aid in Genomics and Proteomics."SearchBusinessAnalytics. 11 Oct. 2005. Web. 22 Oct. 2015. <http://searchbusinessanalytics.techtarget.com/news/2240111116/BLAST-Sequences-Aid-in-Genomics-and-Proteomics>.
+Hong, Changjin, and William Johnson. "PathoScope 2.0: A Complete Computational Framework for Strain Identification in Environmental or Clinical Sequencing Samples." Microbiome. 5 Sept. 2014. Web. 22 Oct. 2015. <http://www.microbiomejournal.com/content/2/1/33>.
+Owen, Francis, and William Johnson. "Pathoscope: Species Identification and Strain Attribution with Unassembled Sequencing Data." Genome Research. Cold Spring Harbor Laboratory Press, 10 July 2013. Web. 22 Oct. 2015. <http://genome.cshlp.org/content/23/10/1721.long>.
+Marçais, Guillaume, and Carl Kingsford. "A Fast, Lock-free Approach for Efficient Parallel Counting of Occurrences of K-mers." Bioinformatics. Oxford Journals, 7 Jan. 2011. Web. 22 Oct. 2015. <http://bioinformatics.oxfordjournals.org/content/27/6/764.long>.
+Altschul, S. "Basic Local Alignment Search Tool." National Center for Biotechnology Information. U.S. National Library of Medicine, 5 Oct. 1990. Web. 22 Oct. 2015. <http://www.ncbi.nlm.nih.gov/pubmed/2231712>.
+Huang, Weichun, Leping Li, Jason Myers, and Gabor Marth. "ART: A Next-generation Sequencing Read Simulator." Bioinformatics. Oxford University Press, 23 Dec. 2011. Web. 22 Oct. 2015. <http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3278762/>.
+Ono, Yukiteru, Kiyoshi Asai, and Michiaki Hamada. "PBSIM: PacBio Reads Simulator-toward Accurate Genome Assembly." Bioinformatics. Oxford Journals, 4 Nov. 2012. Web. 22 Oct. 2015. <http://bioinformatics.oxfordjournals.org/content/29/1/119.full>.
+James T. Robinson, Helga Thorvaldsdóttir, Wendy Winckler, Mitchell Guttman, Eric S. Lander, Gad Getz, Jill P. Mesirov.Integrative Genomics Viewer. Nature Biotechnology 29, 24–26 (2011)
+Helga Thorvaldsdóttir, James T. Robinson, Jill P. Mesirov. Integrative Genomics Viewer (IGV): high-performance genomics data visualization and exploration.  Briefings in Bioinformatics 14, 178-192 (2013).
